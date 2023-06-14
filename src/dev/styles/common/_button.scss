@@ -1,0 +1,71 @@
+@use '../base' as base;
+@use '../mixin' as mixin;
+
+// m-button
+//=====================================
+
+.m-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.m-button--right {
+    justify-content: flex-end;
+}
+
+.m-button--left {
+    justify-content: flex-start;
+}
+
+.m-button__link{
+    display: inline-block;
+    border-radius: 25em;
+    width: 100%;
+    padding-bottom: 4px;
+    border: 2px solid base.$border_base_color;
+    text-decoration: none;
+
+    @include mixin.media(pc){
+        min-width: 340px;
+        width: fit-content;
+    }
+}
+
+.m-button__inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 22px 36px 22px 36px;
+    border-radius: 25em;
+    border-bottom: 2px solid base.$border_base_color;
+
+    @include mixin.media(pc){
+        padding: 22px 47px 22px 47px;
+    }
+
+    &::after{
+        position: absolute;
+        content: '';
+        width: 13px;
+        height: 11px;
+        background-image: url('../img/icon_common_06.svg');
+        transform: translateY(-50%);
+        top: 50%;
+        right: 33px;
+    }
+}
+
+.m-button__text {
+    font-size: mixin.rem(12);
+    color: base.$font_base_color;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+
+    @include mixin.media(pc){
+        font-size: mixin.rem(16);
+    }
+}

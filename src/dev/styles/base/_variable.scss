@@ -1,0 +1,31 @@
+//  変数
+// =============================
+
+//  ブレイクポイント
+// =============================
+$bp: 768;
+$bpl: 1200;
+
+//  font-family
+// =============================
+$ff_base: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif; 
+$ff_en: 'PT Sans', sans-serif; 
+
+//  color
+// =============================
+$base_light: #fff;
+$base_dark: #999;
+$base_light_dark: #444;
+
+// font-color
+$font_base_color: $base_light;
+$font_sub_color: $base_dark;
+$font_sub_dark_color: $base_light_dark;
+
+// background-color
+$background_base_color: #111;
+$background_light_color: $base_light;
+
+// border-color
+$border_base_color: $base_light;
+$border_dark_color: #333;

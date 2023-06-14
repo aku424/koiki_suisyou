@@ -1,0 +1,55 @@
+@use '../base' as base;
+@use '../mixin' as mixin;
+
+// m-menu
+//=====================================
+
+.m-menu__contents {
+    position: relative;
+}
+
+.m-menu__contentsBubble {
+    position: absolute;
+    top: -24px;
+    left: -22px;
+
+    @include mixin.media(pc){
+        top: -24px;
+        left: -22px;
+    }
+}
+
+.m-menu__media {
+    :where(img) {
+        vertical-align: bottom;
+        border-radius: 10px;
+
+        @include mixin.media(pc){
+            border-radius: 20px;
+        }
+    }
+}
+
+.m-menu__text {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.m-menu__textMenu,
+.m-menu__price {
+    font-size: mixin.rem(12);
+    font-weight: bold;
+}
+
+.m-menu__textMenu {
+    line-height: 1.8;
+}
+
+.m-menu__price {
+    display: inline-block;
+    width: fit-content;
+    margin-left: auto;
+    line-height: 1;
+}

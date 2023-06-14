@@ -1,0 +1,48 @@
+@use './_variable' as base;
+
+
+// リセット
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, div, span, img, a, table, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+header, footer, nav, section, article, aside, figure, figcaption {
+    display: block;
+}
+
+html {
+    font-size: 16px;
+    font-family: base.$ff_base;
+    color: base.$base_light;
+    letter-spacing: .1rem;
+    line-height: 2.25;
+}
+
+body {
+    background-color: base.$background_base_color;
+}
+
+ol, ul {
+    list-style: none;
+    list-style-type: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+button {
+    cursor: pointer;
+}

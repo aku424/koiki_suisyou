@@ -1,0 +1,6 @@
+// pxをremに変更するファンクション
+
+$baseFontSize: 16;
+@function rem($pixels) {
+    @return calc(#{$pixels} / #{$baseFontSize} * 1rem);
+}

@@ -1,0 +1,15 @@
+// media-query
+$breakpoints: (
+//キー  値
+    'sp': 'screen and (max-width: 768px)', //767px以下（スマホ）用の表示
+    'pc': 'screen and (min-width: 769px)', //768px以下（pc）用の表示
+    'lpc': 'screen and (max-width: 1000px)', //1000px以下（モニター）用の表示
+    'hover': '(hover:hover) and (min-width: 768px)'
+
+) !default;
+
+@mixin media ($breakpoint: sm) {
+    @media #{map-get($breakpoints, $breakpoint)} {
+        @content;
+    }
+};
