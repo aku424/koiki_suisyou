@@ -26,6 +26,7 @@ html {
 
 body {
   background-color: #111;
+  position: relative;
 }
 
 ol, ul {
@@ -250,24 +251,224 @@ button {
   }
 }
 
-.test {
-  color: tomato;
+.m-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100vw;
 }
-@media screen and (max-width: 768px) {
-  .test {
-    color: blue;
-  }
+
+.m-header__inner {
+  padding: 60px 40px 0;
+  max-width: 1200px;
+  box-sizing: content-box;
+  margin-inline: auto;
 }
 @media screen and (min-width: 769px) {
-  .test {
-    color: green;
+  .m-header__inner {
+    padding: 80px 80px 0;
   }
 }
-@media (hover:hover) and (min-width: 768px) {
-  .test:hover {
-    color: red;
-    font-size: calc(40 / 16 * 1rem);
+
+.m-header__layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.m-header__media {
+  width: 50%;
+  display: none;
+}
+@media screen and (min-width: 769px) {
+  .m-header__media {
+    display: block;
   }
+}
+.m-header__media :where(img) {
+  border-radius: 10px;
+}
+
+.m-header__logo,
+.m-header__infoLogo {
+  width: 70px;
+}
+@media screen and (min-width: 769px) {
+  .m-header__logo,
+  .m-header__infoLogo {
+    width: 125px;
+  }
+}
+.m-header__logo :where(img),
+.m-header__infoLogo :where(img) {
+  vertical-align: bottom;
+}
+
+.m-header__contents {
+  display: none;
+  position: absolute;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  background-color: #111;
+  height: 100vh;
+}
+.is-active .m-header__contents {
+  display: block;
+}
+
+.m-header__contentsInner {
+  display: flex;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
+  padding: 60px 40px 0;
+  margin-inline: auto;
+}
+@media screen and (min-width: 769px) {
+  .m-header__contentsInner {
+    padding: 80px 80px 0;
+  }
+}
+
+.m-header__button {
+  position: relative;
+  background-color: inherit;
+  border: none;
+  background-image: url("../../common/img/icon_common_07.svg");
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  padding: 0;
+  z-index: 1;
+}
+@media screen and (min-width: 769px) {
+  .m-header__button {
+    width: 56px;
+    height: 50px;
+  }
+}
+.is-active .m-header__button {
+  background-image: url("../../common/img/icon_common_10.svg");
+}
+
+.m-header__buttonText {
+  display: inline-block;
+  padding-top: 23px;
+}
+
+.m-header__infoInner {
+  display: flex;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  align-items: center;
+}
+
+.m-header__info {
+  width: 100%;
+}
+@media screen and (min-width: 769px) {
+  .m-header__info {
+    width: 50%;
+  }
+}
+
+.m-header__info {
+  width: 100%;
+}
+@media screen and (min-width: 769px) {
+  .m-header__info {
+    width: 50%;
+  }
+}
+
+.m-header__list {
+  display: none;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  align-items: center;
+}
+@media screen and (min-width: 769px) {
+  .m-header__list {
+    display: flex;
+  }
+}
+
+.m-header__link {
+  width: 20px;
+}
+
+@media screen and (min-width: 769px) {
+  .m-header__nav {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.m-header__navList {
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+  gap: 36px;
+  flex-direction: column;
+}
+@media screen and (min-width: 769px) {
+  .m-header__navList {
+    position: absolute;
+    top: 22%;
+    gap: 40px;
+    margin-top: 0;
+    flex-direction: row;
+  }
+}
+
+.m-header__navRight,
+.m-header__navLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+@media screen and (min-width: 769px) {
+  .m-header__navRight,
+  .m-header__navLeft {
+    width: calc((100% - 36px) / 2);
+  }
+}
+
+.m-header__navItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.m-header__navLink {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.m-header__navText {
+  color: #fff;
+  font-size: calc(16 / 16 * 1rem);
+  line-height: 1.4;
+}
+@media screen and (min-width: 769px) {
+  .m-header__navText {
+    font-size: calc(22 / 16 * 1rem);
+  }
+}
+
+.m-header__navSubText {
+  color: #999;
+  font-size: calc(12 / 16 * 1rem);
+  line-height: 1.4;
+}
+
+.m-newWindowIcon {
+  width: 22px;
+  display: inline-block;
+  margin-left: 16px;
+  vertical-align: middle;
 }
 
 /*====================================================================
@@ -396,7 +597,7 @@ button {
 
 .mv__scroll {
   position: absolute;
-  bottom: 41vw;
+  bottom: 100px;
   right: 10px;
 }
 @media screen and (min-width: 769px) {
@@ -406,14 +607,14 @@ button {
   }
 }
 .mv__scroll::before {
-  width: 50vw;
-  height: 94.66vw;
+  width: 184px;
+  height: 350px;
   position: absolute;
   content: "";
   background-position: center;
   background-size: cover;
-  right: 10px;
-  bottom: 25vw;
+  right: 0;
+  bottom: 100px;
   background-image: url("../../img/img_index_01.png");
 }
 @media screen and (min-width: 769px) {

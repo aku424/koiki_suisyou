@@ -1,25 +1,6 @@
 @use '../base' as base;
 @use '../mixin' as mixin;
 
-.test {
-    color: tomato;
-
-    @include mixin.media(sp){
-        color: blue;
-    }
-
-    @include mixin.media(pc){
-        color: green;
-    }
-
-    @include mixin.media(hover) {
-        &:hover{
-            color: red;
-            font-size: mixin.rem(40);
-        }
-    }
-}
-
 /*====================================================================
 ページ共通スタイル
 ====================================================================*/
@@ -178,7 +159,7 @@
 
 .mv__scroll {
     position: absolute;
-    bottom: 41vw;
+    bottom: 100px;
     right: 10px;
 
     @include mixin.media(pc){
@@ -187,14 +168,14 @@
     }
     
     &::before{
-        width: 50vw;
-        height: 94.66vw;
+        width: 184px;
+        height: 350px;
         position: absolute;
         content: '';
         background-position: center;
         background-size: cover;
-        right: 10px;
-        bottom: 25vw;
+        right: 0;
+        bottom: 100px;
         background-image: url('../../img/img_index_01.png');
         
         @include mixin.media(pc){
