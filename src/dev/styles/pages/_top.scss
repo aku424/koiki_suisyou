@@ -84,18 +84,6 @@
     }
 }
 
-// m-heading-type2
-//=====================================
-
-.m-heading-type2 {
-    font-size: mixin.rem(28);
-
-    @include mixin.media(pc){
-        text-align: center;
-    }
-}
-
-
 // MV
 //=====================================
 .mv {
@@ -831,13 +819,6 @@
 
 .un-guidance__info {
     margin-top: 28px;
-    display: grid;
-    grid-template-columns: max-content auto;
-    column-gap: 20px;
-}
-
-.un-guidance__infoItem {
-    display: contents;
 }
 
 .un-guidance__button {

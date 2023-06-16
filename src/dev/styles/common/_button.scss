@@ -19,7 +19,7 @@
     justify-content: flex-start;
 }
 
-.m-button__link{
+.m-button__link {
     display: inline-block;
     border-radius: 25em;
     width: 100%;
@@ -38,12 +38,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 22px 36px 22px 36px;
+    padding: 22px 36px;
     border-radius: 25em;
     border-bottom: 2px solid base.$border_base_color;
 
     @include mixin.media(pc){
-        padding: 22px 47px 22px 47px;
+        padding: 22px 47px;
     }
 
     &::after{
@@ -67,5 +67,19 @@
 
     @include mixin.media(pc){
         font-size: mixin.rem(16);
+    }
+}
+
+.m-button--nonMark {
+    :where(.m-button__inner) {
+        &::after{
+            display: none;
+        }
+    }
+}
+
+.m-button--bg {
+    .m-button__link {
+        background-color: base.$base_black;
     }
 }

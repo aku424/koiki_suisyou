@@ -1,0 +1,295 @@
+@use '../base' as base;
+@use '../mixin' as mixin;
+
+// m-cta
+//=====================================
+
+.m-cta__heading {
+    text-align: center;
+}
+
+.m-cta__headingInner {
+    font-size: mixin.rem(20);
+    position: relative;
+    width: fit-content;
+    padding: 0 36px;
+    margin: 0 auto;
+    line-height: 1.3;
+    text-align: center;
+
+    @include mixin.media(pc) {
+        font-size: mixin.rem(34);
+    }
+
+    &::after,
+    &::before {
+        position: absolute;
+        content: '';
+        width: 3px;
+        height: 150%;
+        bottom: -10px;
+        background-color: base.$background_light_color;
+        border-radius: 25em;
+    }
+
+    &::after {
+        rotate: 20deg;
+        right: 0;
+    }
+
+    &::before {
+        rotate: -20deg;
+        left: 0;
+    }
+}
+
+.m-cta__headingSmall {
+    font-size: mixin.rem(16);
+
+    @include mixin.media(pc) {
+        font-size: mixin.rem(26);
+    }
+}
+
+.m-cta-layout {
+    margin-top: 36px;
+    display: grid;
+
+    @include mixin.media(sp) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        'grid01 grid01'
+        'grid02 grid02'
+        'grid03 grid03'
+        'grid04 grid04'
+        'grid05 grid06';
+        gap: 24px 8px;
+    }
+
+    @include mixin.media(pc) {
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: clamp(16px, 3.83vw, 46px);
+    }
+}
+
+.m-cta__item {
+    border-radius: 10px;
+    background-color: base.$background_light_dark_color;
+    
+    &.border {
+        position: relative;
+        border: 1px solid base.$border_base_color;
+        padding-bottom: 6px;
+
+        &::after{
+            position: absolute;
+            content: '';
+            width: 9px;
+            height: 7px;
+            background-image: url('../img/icon_common_06.svg');
+            background-size: contain;
+            top: 50%;
+            right: 6px;
+
+            @include mixin.media(pc) {
+                right: 20px;
+            }
+        }
+    }
+
+    @include mixin.media(pc) {
+        border-radius: 20px;
+    }
+}
+
+.m-cta__itemInner {
+    border-radius: 10px;
+    height: 100%;
+    padding: 30px 0;
+
+    .border & {
+        border-bottom: 1px solid base.$border_base_color;
+    }
+
+    @include mixin.media(pc) {
+        border-radius: 20px;
+    }
+}
+
+.m-cta__itemContents {
+    padding: 0 12px;
+    height: 100%;
+    max-width: 280px;
+    margin-inline: auto;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    @include mixin.media(pc) {
+        font-size: mixin.rem(20);
+    }
+}
+
+// reserve
+.m-cta__reserveTitle {
+    line-height: 1;
+    text-align: center;
+    font-size: mixin.rem(16);
+
+    @include mixin.media(pc) {
+        font-size: mixin.rem(20);
+    }
+}
+
+.m-cta__reserveContents {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-columns: repeat(2, max-content);
+    gap: 8px 12px;
+    width: fit-content;
+    margin: 12px auto 0;
+
+    &::before{
+        content: '';
+        width: 30px;
+        height: 45px;
+        background-image: url('../img/icon_common_04.svg');
+        grid-row: 1 / 3;
+        margin-top: auto;
+    }
+}
+
+.m-cta__number,
+.m-cta__time {
+    line-height: 1;
+}
+
+.m-cta__number {
+    font-size: mixin.rem(16);
+    font-weight: bold;
+
+    @include mixin.media(pc) {
+        font-size: mixin.rem(20);
+    }
+
+    :where(b) {
+        font-size: mixin.rem(30);
+    }
+}
+
+.m-cta__time {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-size: mixin.rem(12);
+
+    @include mixin.media(pc) {
+        font-size: mixin.rem(14);
+    }
+}
+
+// contact
+.m-cta__contactTitle {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+    font-size: mixin.rem(14);
+    font-weight: bold;
+
+    @include mixin.media(pc) {
+        font-size: mixin.rem(16);
+    }
+
+    :where(img) {
+        flex: 0 0 auto;
+        width: 37px;
+    }
+
+    :where(b) {
+        font-size: mixin.rem(18);
+
+    @include mixin.media(pc) {
+            font-size: mixin.rem(22);
+        } 
+    }
+}
+
+.m-cta__contactText {
+    font-size: mixin.rem(18);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(8px,  8.86%, 36px);
+    font-weight: bold;
+    line-height: 1;
+    margin-top: 4px;
+
+    @include mixin.media(pc) {
+        font-size: mixin.rem(20);
+    }
+
+    :where(img) {
+        width: auto;
+        height: 100%;
+    }
+}
+
+// shop
+.m-cta__shopText {
+    font-size: mixin.rem(10);
+    line-height: 1.6;
+    text-align: center;
+        
+    @include mixin.media(pc) {
+        font-size: mixin.rem(18);
+    }
+
+    :where(ruby) {
+        margin-left: -16px;
+        margin-right: -6px;
+    }
+
+    :where(b) {
+        font-size: mixin.rem(14);
+        
+        @include mixin.media(pc) {
+            font-size: mixin.rem(22);
+        }
+    }
+
+    :where(rt){
+        font-size: mixin.rem(8);
+    }
+}
+
+// SP時のgrid layout
+@include mixin.media(sp) {
+    .grid01 {
+        grid-area: grid01;
+    }
+    
+    .grid02 {
+        grid-area: grid02;
+    }
+    
+    .grid03 {
+        grid-area: grid03;
+    }
+    
+    .grid04 {
+        grid-area: grid04;
+    }
+    
+    .grid05 {
+        grid-area: grid05;
+    }
+    
+    .grid06 {
+        grid-area: grid06;
+    }
+}
+
+
+

@@ -32,3 +32,16 @@
         }
     }
 }
+
+// m-list-desc
+//=====================================
+
+.m-list-desc {
+    display: grid;
+    grid-template-columns: max-content auto;
+    gap: 10px 20px;
+}
+
+.m-list-descItem {
+    display: contents;
+}

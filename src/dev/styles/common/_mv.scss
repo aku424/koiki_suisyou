@@ -1,0 +1,75 @@
+@use '../base' as base;
+@use '../mixin' as mixin;
+
+// m-mv
+//=====================================
+
+.m-mv {
+    position: relative;
+    z-index: 1000;
+    max-width: 916px;
+    margin-inline: auto;
+    box-sizing: content-box;
+}
+
+.m-mv__inner {
+    margin-inline: auto;
+    // width: calc(100% - 70px - 40px);
+
+    @include mixin.media(pc){
+        // width: calc(100% - 125px - 56px);
+        font-size: mixin.rem(16);
+
+        &::before{
+            top: 14px;
+        }
+    }
+}
+
+.m-mv__heading {
+    padding: 60px 124px 0;
+    
+    @include mixin.media(pc){
+        padding: 80px 220px 0;
+    }
+
+}
+
+.m-mv__headingText,
+.m-mv__headingSubText {
+    text-align: center;
+    line-height: 1;
+}
+
+.m-mv__headingText {
+    font-size: mixin.rem(24);
+    
+    @include mixin.media(pc){
+        font-size: mixin.rem(36);        
+    }
+}
+
+.m-mv__headingSubText {
+    font-size: mixin.rem(14);
+    margin-top: 8px;
+}
+
+.m-mv__text {
+    margin-top: 64px;
+    text-align: center;
+    padding: 0 40px;
+    
+    @include mixin.media(pc){
+        margin-top: 84px;
+        padding: 0 80px;
+    }
+}
+
+.m-mv__textItem {
+    font-size: mixin.rem(12);
+        
+    @include mixin.media(pc){
+        font-size: mixin.rem(14);
+    }
+}
+

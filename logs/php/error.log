@@ -1,1 +1,43 @@
 [15-Jun-2023 15:23:29 UTC] フックの cron 再予約イベントエラー: wp_privacy_delete_old_export_files、エラーコード: could_not_set、エラーメッセージ: Cron イベントのリストを保存できません。、データ: {"schedule":"hourly","args":[],"interval":3600}
+[15-Jun-2023 23:22:51 UTC] PHP Fatal error:  Cannot redeclare get_header_image() (previously declared in /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-includes/theme.php:1177) in /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-content/themes/SUISYOU/functions.php on line 17
+[15-Jun-2023 23:22:51 UTC] PHP Stack trace:
+[15-Jun-2023 23:22:51 UTC] PHP   1. {main}() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/index.php:0
+[15-Jun-2023 23:22:51 UTC] PHP   2. require() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/index.php:17
+[15-Jun-2023 23:22:51 UTC] PHP   3. require_once() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-blog-header.php:13
+[15-Jun-2023 23:22:51 UTC] PHP   4. require_once() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-load.php:50
+[15-Jun-2023 23:22:51 UTC] PHP   5. require_once() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-config.php:91
+[15-Jun-2023 23:22:51 UTC] PHP Fatal error:  Cannot redeclare get_header_image() (previously declared in /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-includes/theme.php:1177) in /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-content/themes/SUISYOU/functions.php on line 17
+[15-Jun-2023 23:22:51 UTC] PHP Stack trace:
+[15-Jun-2023 23:22:51 UTC] PHP   1. {main}() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/index.php:0
+[15-Jun-2023 23:22:51 UTC] PHP   2. require() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/index.php:17
+[15-Jun-2023 23:22:51 UTC] PHP   3. require_once() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-blog-header.php:13
+[15-Jun-2023 23:22:51 UTC] PHP   4. require_once() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-load.php:50
+[15-Jun-2023 23:22:51 UTC] PHP   5. require_once() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-config.php:91
+[15-Jun-2023 23:22:54 UTC] PHP Fatal error:  Cannot redeclare get_header_image() (previously declared in /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-includes/theme.php:1177) in /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-content/themes/SUISYOU/functions.php on line 17
+[15-Jun-2023 23:22:54 UTC] PHP Stack trace:
+[15-Jun-2023 23:22:54 UTC] PHP   1. {main}() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/index.php:0
+[15-Jun-2023 23:22:54 UTC] PHP   2. require() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/index.php:17
+[15-Jun-2023 23:22:54 UTC] PHP   3. require_once() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-blog-header.php:13
+[15-Jun-2023 23:22:54 UTC] PHP   4. require_once() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-load.php:50
+[15-Jun-2023 23:22:54 UTC] PHP   5. require_once() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-config.php:91
+[15-Jun-2023 23:22:54 UTC] PHP Fatal error:  Cannot redeclare get_header_image() (previously declared in /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-includes/theme.php:1177) in /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-content/themes/SUISYOU/functions.php on line 17
+[15-Jun-2023 23:22:54 UTC] PHP Stack trace:
+[15-Jun-2023 23:22:54 UTC] PHP   1. {main}() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/index.php:0
+[15-Jun-2023 23:22:54 UTC] PHP   2. require() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/index.php:17
+[15-Jun-2023 23:22:54 UTC] PHP   3. require_once() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-blog-header.php:13
+[15-Jun-2023 23:22:54 UTC] PHP   4. require_once() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-load.php:50
+[15-Jun-2023 23:22:54 UTC] PHP   5. require_once() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-config.php:91
+[15-Jun-2023 23:23:01 UTC] PHP Fatal error:  Cannot redeclare get_header_image() (previously declared in /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-includes/theme.php:1177) in /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-content/themes/SUISYOU/functions.php on line 17
+[15-Jun-2023 23:23:01 UTC] PHP Stack trace:
+[15-Jun-2023 23:23:01 UTC] PHP   1. {main}() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-admin/index.php:0
+[15-Jun-2023 23:23:01 UTC] PHP   2. require_once() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-admin/index.php:10
+[15-Jun-2023 23:23:01 UTC] PHP   3. require_once() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-admin/admin.php:34
+[15-Jun-2023 23:23:01 UTC] PHP   4. require_once() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-load.php:50
+[15-Jun-2023 23:23:01 UTC] PHP   5. require_once() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-config.php:91
+[15-Jun-2023 23:23:01 UTC] PHP Fatal error:  Cannot redeclare get_header_image() (previously declared in /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-includes/theme.php:1177) in /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-content/themes/SUISYOU/functions.php on line 17
+[15-Jun-2023 23:23:01 UTC] PHP Stack trace:
+[15-Jun-2023 23:23:01 UTC] PHP   1. {main}() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/index.php:0
+[15-Jun-2023 23:23:01 UTC] PHP   2. require() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/index.php:17
+[15-Jun-2023 23:23:01 UTC] PHP   3. require_once() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-blog-header.php:13
+[15-Jun-2023 23:23:01 UTC] PHP   4. require_once() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-load.php:50
+[15-Jun-2023 23:23:01 UTC] PHP   5. require_once() /Users/takashimatakuto/Local Sites/koikisuisyou/app/public/wp-config.php:91

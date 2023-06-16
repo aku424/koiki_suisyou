@@ -1,0 +1,14 @@
+@use '../base' as base;
+@use '../mixin' as mixin;
+
+// m-heading-type2
+//=====================================
+
+.m-heading-type2 {
+    font-size: mixin.rem(22);
+    
+    @include mixin.media(pc){
+        font-size: mixin.rem(28);
+        text-align: center;
+    }
+}

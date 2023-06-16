@@ -43,10 +43,6 @@
             </div>
             <ul class="splide__pagination mv__pagination"></ul>
         </div>
-        <!-- <picture class="mv__media">
-            <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri()?>/img/mv_index_05.webp" type="image/webp">
-            <img src="<?php echo get_template_directory_uri()?>/img/mv_index_05.png" alt="">
-        </picture> -->
         <picture class="mv__media">
             <img src="<?php echo get_template_directory_uri()?>/img/mv_index_05.svg" alt="">
         </picture>
@@ -370,25 +366,25 @@
                             </picture>
                             <div class="un-guidance__contents">
                             <h3 class="un-guidance__itemHeading">翠翔駅前店</h3>
-                            <dl class="un-guidance__info">
-                                <div class="un-guidance__infoItem">
-                                    <dt class="un-guidance__infoTitle">住所</dt>
-                                    <dd class="un-guidance__infoDescription">〒910-0005 福井県福井市大手2丁目5-10</dd>
+                            <dl class="m-list-desc un-guidance__info">
+                                <div class="m-list-descItem">
+                                    <dt class="m-list-descTitle">住所</dt>
+                                    <dd class="m-list-descDescription">〒910-0005 福井県福井市大手2丁目5-10</dd>
                                 </div>
 
-                                <div class="un-guidance__infoItem">
-                                    <dt class="un-guidance__infoTitle">営業時間</dt>
-                                    <dd class="un-guidance__infoDescription">17:00-23:00（LO22:30）</dd>
+                                <div class="m-list-descItem">
+                                    <dt class="m-list-descTitle">営業時間</dt>
+                                    <dd class="m-list-descDescription">17:00-23:00（LO22:30）</dd>
                                 </div>
 
-                                <div class="un-guidance__infoItem">
-                                    <dt class="un-guidance__infoTitle">定休日</dt>
-                                    <dd class="un-guidance__infoDescription">日曜定休（祝前日・祝日は営業）</dd>
+                                <div class="m-list-descItem">
+                                    <dt class="m-list-descTitle">定休日</dt>
+                                    <dd class="m-list-descDescription">日曜定休（祝前日・祝日は営業）</dd>
                                 </div>
 
-                                <div class="un-guidance__infoItem">
-                                    <dt class="un-guidance__infoTitle">電話番号</dt>
-                                    <dd class="un-guidance__infoDescription">0776-27-2008</dd>
+                                <div class="m-list-descItem">
+                                    <dt class="m-list-descTitle">電話番号</dt>
+                                    <dd class="m-list-descDescription">0776-27-2008</dd>
                                 </div>
                             </dl>
                             </div><!-- /.un-guidance__contents -->
@@ -401,25 +397,25 @@
                             </picture>
                             <div class="un-guidance__contents">
                             <h3 class="un-guidance__itemHeading">翠翔片町店</h3>
-                            <dl class="un-guidance__info">
-                                <div class="un-guidance__infoItem">
-                                    <dt class="un-guidance__infoTitle">住所</dt>
-                                    <dd class="un-guidance__infoDescription">〒910-0023 福井県福井市順化2丁目6-16 高畠ビル</dd>
+                            <dl class="m-list-desc un-guidance__info">
+                                <div class="m-list-descItem">
+                                    <dt class="m-list-descTitle">住所</dt>
+                                    <dd class="m-list-descDescription">〒910-0023 福井県福井市順化2丁目6-16 高畠ビル</dd>
                                 </div>
 
-                                <div class="un-guidance__infoItem">
-                                    <dt class="un-guidance__infoTitle">営業時間</dt>
-                                    <dd class="un-guidance__infoDescription">17:00-23:00（LO22:30）</dd>
+                                <div class="m-list-descItem">
+                                    <dt class="m-list-descTitle">営業時間</dt>
+                                    <dd class="m-list-descDescription">17:00-23:00（LO22:30）</dd>
                                 </div>
 
-                                <div class="un-guidance__infoItem">
-                                    <dt class="un-guidance__infoTitle">定休日</dt>
-                                    <dd class="un-guidance__infoDescription">日曜・月曜定休（祝前日・祝日は営業）</dd>
+                                <div class="m-list-descItem">
+                                    <dt class="m-list-descTitle">定休日</dt>
+                                    <dd class="m-list-descDescription">日曜・月曜定休（祝前日・祝日は営業）</dd>
                                 </div>
 
-                                <div class="un-guidance__infoItem">
-                                    <dt class="un-guidance__infoTitle">電話番号</dt>
-                                    <dd class="un-guidance__infoDescription">0776-97-9710</dd>
+                                <div class="m-list-descItem">
+                                    <dt class="m-list-descTitle">電話番号</dt>
+                                    <dd class="m-list-descDescription">0776-97-9710</dd>
                                 </div>
                             </dl>
                             </div><!-- /.un-guidance__contents -->
