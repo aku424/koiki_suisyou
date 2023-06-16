@@ -1,0 +1,130 @@
+@use '../base' as base;
+@use '../mixin' as mixin;
+
+// l-footer
+//=====================================
+.l-footer {
+    background-color: base.$background_base_color;
+    padding: 80px 40px 120px;
+    box-sizing: content-box;
+
+    @include mixin.media(pc){
+        padding: 128px 80px 180px;
+    }
+}
+
+.l-footer__inner {
+    max-width: 600px;
+    margin-inline: auto;
+}
+
+.l-footer__logoLink {
+    width: 70px;
+    display: block;
+    margin-inline: auto;
+    
+    @include mixin.media(pc){
+        width: 125px;
+    }
+}
+
+.l-footer__sns {
+    margin-top: 40px;
+    display: flex;
+    width: fit-content;
+    margin-inline: auto;
+    gap: 24px;
+        
+    @include mixin.media(pc){
+        width: 50px;
+    }
+}
+
+.l-footer__snsItem {
+    width: 20px;
+    flex-shrink: 0;
+}
+
+.l-footer__nav {
+    margin-top: 36px;
+
+    @include mixin.media(pc){
+        margin-top: 40px;
+    }
+}
+
+.l-footer__navList {
+    display: grid;
+    gap: 8px;
+
+    @include mixin.media(pc){
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        'gridItem01 gridItem04 gridItem06'
+        'gridItem02 gridItem05 gridItem07'
+        'gridItem03 . .';
+        gap: 18px 24px;
+    }
+}
+
+.l-footer__navItem {
+    text-align: center;
+
+    @include mixin.media(pc){
+        text-align: left;
+    }
+}
+
+.l-footer__navLink {
+    display: inline-block;
+    height: 100%;
+    padding: 0 8px;
+}
+
+@include mixin.media(pc){
+    .gridItem01 {
+        grid-area: gridItem01;
+    }
+
+    .gridItem02 {
+        grid-area: gridItem02;
+    }
+
+    .gridItem03 {
+        grid-area: gridItem03;
+    }
+
+    .gridItem04 {
+        grid-area: gridItem04;
+    }
+
+    .gridItem05 {
+        grid-area: gridItem05;
+    }
+
+    .gridItem06 {
+        grid-area: gridItem06;
+    }
+
+    .gridItem07 {
+        grid-area: gridItem07;
+    }
+}
+
+.l-footer__navLink {
+    text-decoration: none;
+    font-size: mixin.rem(14);
+    color: base.$font_base_color;
+    
+    @include mixin.media(pc){
+        font-size: mixin.rem(16);
+    }
+}
+
+.l-footer__copyright {
+    margin-top: 36px;
+    text-align: center;
+    font-size: mixin.rem(12);
+    color: base.$font_sub_dark_color;
+}

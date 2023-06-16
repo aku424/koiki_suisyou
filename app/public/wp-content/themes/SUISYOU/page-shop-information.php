@@ -236,10 +236,9 @@
         </div>
     </div><!-- /.l-content -->
 
-    <?php get_template_part('./templates/template-pagination'); ?>
-
     <?php get_template_part('./templates/template-contact'); ?>
-
+    
+    <?php get_template_part('./templates/template-breadcrumb'); ?>
 </main>
 
 <!-- フッター -->

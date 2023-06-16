@@ -1,17 +1,21 @@
 @use '../base' as base;
 @use '../mixin' as mixin;
 
-// m-header
+// l-header
 //=====================================
-.m-header {
+.l-header {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 999;
+    z-index: 99;
     width: 100vw;
+
+    &.is-active {
+        z-index: 101;
+    }
 }
 
-.m-header__inner {
+.l-header__inner {
     padding: 60px 40px 0;
     max-width: 1200px;
     box-sizing: content-box;
@@ -22,12 +26,12 @@
     }
 }
 
-.m-header__layout {
+.l-header__layout {
     display: flex;
     justify-content: space-between;
 }
 
-.m-header__media {
+.l-header__media {
     width: 50%;
     display: none;
 
@@ -40,8 +44,8 @@
     }
 }
 
-.m-header__logo,
-.m-header__infoLogo {
+.l-header__logo,
+.l-header__infoLogo {
     width: 70px;
     
     @include mixin.media(pc){
@@ -53,7 +57,7 @@
     }
 }
 
-.m-header__contents {
+.l-header__contents {
     display: none;
     position: absolute;
     width: 100vw;
@@ -67,11 +71,10 @@
     }
 }
 
-.m-header__contentsInner {
+.l-header__contentsInner {
     display: flex;
     column-gap: 5%;
     padding: 60px 40px 0;
-
     margin-inline: auto;
     
     @include mixin.media(pc){
@@ -79,7 +82,7 @@
     }
 }
 
-.m-header__button {
+.l-header__button {
     position: relative;
     background-color: inherit;
     border: none;
@@ -101,25 +104,25 @@
     }
 }
 
-.m-header__buttonText {
+.l-header__buttonText {
     display: inline-block;
     padding-top: 23px;
 }
 
-.m-header__infoInner {
+.l-header__infoInner {
     display: flex;
     column-gap: 50px;
     align-items: center;
 }
 
-.m-header__info {
+.l-header__info {
     width: 100%;
 
     @include mixin.media(pc){
         width: 50%;
     }
 }
-.m-header__info {
+.l-header__info {
     width: 100%;
 
     @include mixin.media(pc){
@@ -127,7 +130,7 @@
     }
 }
 
-.m-header__list {
+.l-header__list {
     display: none;
     column-gap: 25px;
     align-items: center;
@@ -137,11 +140,11 @@
     }
 }
 
-.m-header__link {
+.l-header__link {
     width: 20px;
 }
 
-.m-header__nav {
+.l-header__nav {
     @include mixin.media(pc){
         position: relative;
         height: 100%;
@@ -149,7 +152,7 @@
     }
 }
 
-.m-header__navList {
+.l-header__navList {
     display: flex;
     width: 100%;
     margin-top: 100px;
@@ -165,8 +168,8 @@
     }
 }
 
-.m-header__navRight,
-.m-header__navLeft {
+.l-header__navRight,
+.l-header__navLeft {
     display: flex;
     flex-direction: column;
     gap: 36px;
@@ -177,7 +180,7 @@
 
 }
 
-.m-header__navItem {
+.l-header__navItem {
     display: flex;
     flex-direction: column;
     
@@ -186,13 +189,13 @@
     // }
 }
 
-.m-header__navLink {
+.l-header__navLink {
     display: flex;
     flex-direction: column;
     text-decoration: none;
 }
 
-.m-header__navText {
+.l-header__navText {
     color: base.$font_base_color;
     font-size: mixin.rem(16);
     line-height: 1.4;
@@ -202,7 +205,7 @@
     }
 }
 
-.m-header__navSubText {
+.l-header__navSubText {
     color: base.$font_sub_color;
     font-size: mixin.rem(12);
     line-height: 1.4;
