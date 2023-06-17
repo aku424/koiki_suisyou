@@ -5,7 +5,7 @@
 //=====================================
 
 .m-heading-type2 {
-    font-size: mixin.rem(22);
+    font-size: mixin.rem(24);
     
     @include mixin.media(pc){
         font-size: mixin.rem(28);

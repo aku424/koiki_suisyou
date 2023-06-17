@@ -6,8 +6,8 @@
     <div class="m-mv">
         <div class="m-mv__inner">
             <div class="m-mv__heading">
-                <h1 class="m-mv__headingText"><?php the_title();?></h1>
-                <span class="m-mv__headingSubText">RESTAURANT GUIDE</span>
+                <h1 class="m-mv__headingText"><?php echo get_the_title();?></h1>
+                <h1 class="m-mv__headingSubText">RESTAURANT GUIDE</h1>
             </div><!-- /.m-mv__heading -->
 
             <div class="m-mv__text">
@@ -22,7 +22,7 @@
         <div class="l-content__inner">
             <div class="l-content__body">
                 
-                <h2 class="m-heading-type2">名古屋コーチンの翠翔 <span class="m-newLine">駅前店</span></h2>
+                <h2 class="m-heading-type2"></h2>
                 
                 <div class="m-shop">
                     <div class="m-shop__layout">

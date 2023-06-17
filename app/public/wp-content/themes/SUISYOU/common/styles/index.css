@@ -790,7 +790,7 @@ button {
 }
 
 .m-heading-type2 {
-  font-size: calc(22 / 16 * 1rem);
+  font-size: calc(24 / 16 * 1rem);
 }
 @media screen and (min-width: 769px) {
   .m-heading-type2 {
