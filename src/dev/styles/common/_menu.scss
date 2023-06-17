@@ -12,10 +12,10 @@
     position: absolute;
     top: -24px;
     left: -22px;
+    width: 75%;
 
     @include mixin.media(pc){
-        top: -24px;
-        left: -22px;
+        width: 65%;
     }
 }
 
@@ -41,6 +41,14 @@
 .m-menu__price {
     font-size: mixin.rem(12);
     font-weight: bold;
+
+    .m-menu--large & {
+        font-size: mixin.rem(16);
+
+        @include mixin.media(pc){
+            font-size: mixin.rem(22);
+        }
+    }
 }
 
 .m-menu__textMenu {
@@ -48,8 +56,40 @@
 }
 
 .m-menu__price {
-    display: inline-block;
+    display: flex;
     width: fit-content;
     margin-left: auto;
     line-height: 1;
+    align-items: center;
+}
+
+.m-menu__desc {
+    font-size: mixin.rem(12);
+    margin-top: 16px;
+
+    @include mixin.media(pc){
+        font-size: mixin.rem(14);
+    }
+}
+
+.m-menu__label {
+    margin-top: 16px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.m-menu__labelItem {
+    line-height: 1;
+    padding: 8px 14px;
+    font-size: mixin.rem(10);
+    background-color: base.$font_sub_dark_color;
+    color: #aaa;
+    border-radius: 25em;
+
+    @include mixin.media(pc){
+        font-size: mixin.rem(12);
+    }
 }

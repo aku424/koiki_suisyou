@@ -129,11 +129,11 @@ button {
   position: absolute;
   top: -24px;
   left: -22px;
+  width: 75%;
 }
 @media screen and (min-width: 769px) {
   .m-menu__contentsBubble {
-    top: -24px;
-    left: -22px;
+    width: 65%;
   }
 }
 
@@ -159,17 +159,61 @@ button {
   font-size: calc(12 / 16 * 1rem);
   font-weight: bold;
 }
+.m-menu--large .m-menu__textMenu,
+.m-menu--large .m-menu__price {
+  font-size: calc(16 / 16 * 1rem);
+}
+@media screen and (min-width: 769px) {
+  .m-menu--large .m-menu__textMenu,
+  .m-menu--large .m-menu__price {
+    font-size: calc(22 / 16 * 1rem);
+  }
+}
 
 .m-menu__textMenu {
   line-height: 1.8;
 }
 
 .m-menu__price {
-  display: inline-block;
+  display: flex;
   width: -moz-fit-content;
   width: fit-content;
   margin-left: auto;
   line-height: 1;
+  align-items: center;
+}
+
+.m-menu__desc {
+  font-size: calc(12 / 16 * 1rem);
+  margin-top: 16px;
+}
+@media screen and (min-width: 769px) {
+  .m-menu__desc {
+    font-size: calc(14 / 16 * 1rem);
+  }
+}
+
+.m-menu__label {
+  margin-top: 16px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.m-menu__labelItem {
+  line-height: 1;
+  padding: 8px 14px;
+  font-size: calc(10 / 16 * 1rem);
+  background-color: #444;
+  color: #aaa;
+  border-radius: 25em;
+}
+@media screen and (min-width: 769px) {
+  .m-menu__labelItem {
+    font-size: calc(12 / 16 * 1rem);
+  }
 }
 
 .m-list {
@@ -273,7 +317,7 @@ button {
 }
 @media screen and (min-width: 769px) {
   .m-cta-layout {
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: clamp(16px, 3.83vw, 46px);
   }
 }
@@ -951,80 +995,6 @@ button {
   background-size: contain;
 }
 
-.m-shop {
-  margin-top: 48px;
-}
-@media screen and (min-width: 769px) {
-  .m-shop {
-    margin-top: 80px;
-  }
-}
-
-.m-shop__layout {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 24px;
-  grid-template-areas: "mainMedia" "info" "item01" "item02" "item03";
-}
-@media screen and (min-width: 769px) {
-  .m-shop__layout {
-    grid-template-columns: 60% 40%;
-    grid-template-rows: 2fr repeat(2, 1fr) 2fr;
-    grid-template-areas: "mainMedia item01" "mainMedia item02" "info item02" "info item03";
-  }
-}
-
-.m-shop__mainMedia :where(img),
-.m-shop__media :where(img) {
-  vertical-align: bottom;
-  border-radius: 10px;
-}
-@media screen and (min-width: 769px) {
-  .m-shop__mainMedia :where(img),
-  .m-shop__media :where(img) {
-    border-radius: 20px;
-  }
-}
-
-.m-shop__mainMedia {
-  grid-area: mainMedia;
-}
-
-.m-shop__info {
-  max-width: 570px;
-  grid-area: info;
-}
-
-.m-shop__map {
-  margin-top: 24px;
-}
-
-.m-shop__button {
-  transform: translateY(-50%);
-}
-
-.m-shop__media :where(img) {
-  border-radius: 10px;
-}
-@media screen and (min-width: 769px) {
-  .m-shop__media :where(img) {
-    border-radius: 20px;
-  }
-}
-.m-shop__media.item01 {
-  grid-area: item01;
-}
-.m-shop__media.item02 {
-  grid-area: item02;
-}
-.m-shop__media.item02 {
-  grid-area: item02;
-}
-
-.m-shop__mediaCaption {
-  font-size: calc(14 / 16 * 1rem);
-}
-
 /*====================================================================
 ページ共通スタイル
 ====================================================================*/
@@ -1306,32 +1276,6 @@ button {
     -moz-column-gap: 50px;
          column-gap: 50px;
     align-items: flex-end;
-  }
-}
-
-.m-menu__contents {
-  position: relative;
-}
-
-.m-menu__media :where(img) {
-  vertical-align: bottom;
-  border-radius: 10px;
-}
-@media screen and (min-width: 769px) {
-  .m-menu__media :where(img) {
-    border-radius: 20px;
-  }
-}
-
-.m-menu__contentsBubble {
-  position: absolute;
-  top: -24px;
-  left: -22px;
-}
-@media screen and (min-width: 769px) {
-  .m-menu__contentsBubble {
-    top: -24px;
-    left: -22px;
   }
 }
 
@@ -1796,5 +1740,127 @@ button {
 @media screen and (min-width: 769px) {
   .un-guidance__button {
     margin-top: 62px;
+  }
+}
+
+.m-shop {
+  margin-top: 48px;
+}
+@media screen and (min-width: 769px) {
+  .m-shop {
+    margin-top: 80px;
+  }
+}
+
+.m-shop__layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  grid-template-areas: "mainMedia" "info" "item01" "item02" "item03";
+}
+@media screen and (min-width: 769px) {
+  .m-shop__layout {
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 2fr repeat(2, 1fr) 2fr;
+    grid-template-areas: "mainMedia item01" "mainMedia item02" "info item02" "info item03";
+  }
+}
+
+.m-shop__mainMedia :where(img),
+.m-shop__media :where(img) {
+  vertical-align: bottom;
+  border-radius: 10px;
+}
+@media screen and (min-width: 769px) {
+  .m-shop__mainMedia :where(img),
+  .m-shop__media :where(img) {
+    border-radius: 20px;
+  }
+}
+
+.m-shop__mainMedia {
+  grid-area: mainMedia;
+}
+
+.m-shop__info {
+  max-width: 570px;
+  grid-area: info;
+}
+
+.m-shop__map {
+  margin-top: 24px;
+}
+
+.m-shop__button {
+  transform: translateY(-50%);
+}
+
+.m-shop__media :where(img) {
+  border-radius: 10px;
+}
+@media screen and (min-width: 769px) {
+  .m-shop__media :where(img) {
+    border-radius: 20px;
+  }
+}
+.m-shop__media.item01 {
+  grid-area: item01;
+}
+.m-shop__media.item02 {
+  grid-area: item02;
+}
+.m-shop__media.item02 {
+  grid-area: item02;
+}
+
+.m-shop__mediaCaption {
+  font-size: calc(14 / 16 * 1rem);
+}
+
+/*====================================================================
+ページ共通スタイル
+====================================================================*/
+/*
+
+@include mixin.media(pc) {
+
+}
+
+font-size: mixin.rem(22);
+
+*/
+.un-shop__layout {
+  display: grid;
+  gap: 24px;
+  margin-top: 42px;
+}
+@media screen and (min-width: 769px) {
+  .un-shop__layout {
+    margin-top: 56px;
+    gap: clamp(16px, 5.33vw, 64px);
+  }
+}
+@media screen and (min-width: 769px) {
+  .un-shop__layout:where(.col-01) {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  }
+}
+@media screen and (min-width: 769px) {
+  .un-shop__layout:where(.col-02) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  }
+}
+@media screen and (min-width: 769px) {
+  .un-shop__layout:where(.col-03) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  }
+}
+@media screen and (min-width: 769px) {
+  .un-shop__layout:where(.col-04) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   }
 }

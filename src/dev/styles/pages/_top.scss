@@ -326,33 +326,6 @@
     }
 }
 
-.m-menu__contents {
-    position: relative;
-}
-
-.m-menu__media {
-    :where(img) {
-        vertical-align: bottom;
-        border-radius: 10px;
-
-        @include mixin.media(pc){
-            border-radius: 20px;
-        }
-    }
-}
-
-.m-menu__contentsBubble {
-    position: absolute;
-    top: -24px;
-    left: -22px;
-
-    @include mixin.media(pc){
-        top: -24px;
-        left: -22px;
-    }
-}
-
-
 .un-menu__left {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

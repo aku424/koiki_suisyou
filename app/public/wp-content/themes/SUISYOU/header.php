@@ -13,7 +13,7 @@
     <div class="l-header__inner">
         <div class="l-header__layout">
             <div class="l-header__logo">
-                <a href="l-header__logoLink">
+                <a href="<?php echo home_url('');?>" class="l-header__logoLink">
                     <img src="<?php echo get_template_directory_uri()?>/common/img/icon_common_08.svg" alt="翠翔">
                 </a>
             </div><!-- /.l-header__logo -->
@@ -49,19 +49,19 @@
                                 <ul class="l-header__navList">
                                     <div class="l-header__navRight">
                                         <li class="l-header__navItem">
-                                            <a href="<?php echo home_url('/shop-information'); ?>" class="l-header__navLink">
+                                            <a href="<?php echo home_url('/menu'); ?>" class="l-header__navLink">
                                                 <span class="l-header__navText">メニュー一覧</span>
                                                 <span class="l-header__navSubText">MENU</span>
                                             </a>
                                         </li>
                                         <li class="l-header__navItem">
-                                            <a href="" class="l-header__navLink">
+                                            <a href="<?php echo home_url('/shop-information'); ?>" class="l-header__navLink">
                                                 <span class="l-header__navText">コースについて</span>
                                                 <span class="l-header__navSubText">CORSE</span>
                                             </a>
                                         </li>
                                         <li class="l-header__navItem">
-                                            <a href="" class="l-header__navLink">
+                                        <a href="<?php echo home_url('/shop-information'); ?>" class="l-header__navLink">
                                                 <span class="l-header__navText">店舗案内</span>
                                                 <span class="l-header__navSubText">SHOP</span>
                                             </a>
