@@ -1,0 +1,42 @@
+@use '../base' as base;
+@use '../mixin' as mixin;
+
+// m-mediaLayout
+//=====================================
+.m-mediaLayout {
+    display: flex;
+    flex-direction: column;
+    margin-top: 28px;
+    gap: 18px;
+
+    @include mixin.media(pc) {
+        flex-direction: row;
+        gap: 28px;
+        margin-top: 60px;
+    }
+}
+
+.m-mediaLayout--reverse {
+    @include mixin.media(pc) {
+        flex-direction: row-reverse;
+    }
+}
+
+.m-mediaLayout__media {
+    flex-grow: 0;
+
+    :where(img) {
+        vertical-align: bottom;
+        border-radius: 10px;
+
+        @include mixin.media(pc) {
+            border-radius: 20px;
+        }
+    }
+}
+
+.m-mediaLayout__contents {
+    @include mixin.media(pc) {
+        flex-grow: 1;
+    }
+}

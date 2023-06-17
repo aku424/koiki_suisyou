@@ -23,7 +23,6 @@ export default class Header {
     };
 
     setWaiAria() {
-        console.log(this.hook);
         this.hook.setAttribute('aria-expand', 'false');
         this.hook.setAttribute('aria-controls', 'hamburgerMenu');
         this.contents.setAttribute('id', 'hamburgerMenu');
@@ -34,7 +33,6 @@ export default class Header {
      */
     clickBind() {
         this.hook.addEventListener('click', () => {
-            console.log(this.hook);
             this.isOpenFlag = !this.isOpenFlag;
             this.root.classList.toggle(this.activeClass);
             this.hook.setAttribute('aria-expand', `'${this.isOpenFlag}'`);

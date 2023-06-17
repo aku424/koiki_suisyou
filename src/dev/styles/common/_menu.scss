@@ -12,11 +12,7 @@
     position: absolute;
     top: -24px;
     left: -22px;
-    width: 75%;
-
-    @include mixin.media(pc){
-        width: 65%;
-    }
+    width: 65%;
 }
 
 .m-menu__media {
@@ -39,7 +35,7 @@
 
 .m-menu__textMenu,
 .m-menu__price {
-    font-size: mixin.rem(12);
+    font-size: mixin.rem(14);
     font-weight: bold;
 
     .m-menu--large & {
@@ -65,20 +61,26 @@
 
 .m-menu__desc {
     font-size: mixin.rem(12);
-    margin-top: 16px;
-
+    margin-top: 10px;
+    font-weight: normal;
+    
     @include mixin.media(pc){
         font-size: mixin.rem(14);
+        margin-top: 16px;
     }
 }
 
 .m-menu__label {
-    margin-top: 16px;
+    margin-top: 10px;
     display: flex;
     flex: 0 0 auto;
     flex-wrap: wrap;
     align-items: center;
     gap: 10px;
+
+    @include mixin.media(pc){
+        margin-top: 16px;
+    }
 }
 
 .m-menu__labelItem {
@@ -92,4 +94,11 @@
     @include mixin.media(pc){
         font-size: mixin.rem(12);
     }
+}
+
+// m-menu-category
+//=====================================
+
+.m-menu-category {
+
 }

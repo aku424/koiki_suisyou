@@ -7,3 +7,81 @@
 .m-newLine {
     display: inline-block;
 }
+
+// m-width-n
+//=====================================
+
+@for $i from 0 through 100 { 
+    .m-width-#{$i}-sp {
+        width: #{percentage($i * 0.01)};
+    }
+}
+
+@include mixin.media(pc) {
+    @for $i from 0 through 100 { 
+        .m-width-#{$i}-pc {
+            width: #{percentage($i * 0.01)};
+        }
+    }
+}
+
+// m-margin-dire-n
+//=====================================
+
+@for $i from 0 through 100 { 
+    .m-mt-#{$i}-sp {
+        margin-top: #{$i}px;
+    }
+
+    .m-mab-#{$i}-sp {
+        margin-bottom: #{$i}px;
+    }
+
+    .m-ml-#{$i}-sp {
+        margin-left: #{$i}px;
+    }
+    
+    .m-mar-#{$i}-sp {
+        margin-right: #{$i}px;
+    }
+
+    .m-mx-#{$i}-sp {
+        margin-left: #{$i}px;
+        margin-right: #{$i}px;
+    }
+
+    .m-my-#{$i}-sp {
+        margin-top: #{$i}px;
+        margin-bottom: #{$i}px;
+    }
+}
+
+@include mixin.media(pc) {
+    @for $i from 0 through 100 { 
+        .m-mt-#{$i}-pc {
+            margin-top: #{$i}px;
+        }
+    
+        .m-mab-#{$i}-pc {
+            margin-bottom: #{$i}px;
+        }
+    
+        .m-ml-#{$i}-pc {
+            margin-left: #{$i}px;
+        }
+        
+        .m-mar-#{$i}-pc {
+            margin-right: #{$i}px;
+        }
+    
+        .m-mx-#{$i}-pc {
+            margin-left: #{$i}px;
+            margin-right: #{$i}px;
+        }
+    
+        .m-my-#{$i}-pc {
+            margin-top: #{$i}px;
+            margin-bottom: #{$i}px;
+        }
+    }
+}

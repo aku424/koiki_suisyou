@@ -5,26 +5,20 @@
 ページ共通スタイル
 ====================================================================*/
 
-/*
-
-@include mixin.media(pc) {
-
-}
-
-font-size: mixin.rem(22);
-
-*/ 
-
-
-// un-shop
+// un-menuIndex
 //=====================================
-.un-shop {
-
+.un-menuIndex {
+    :where(.m-menu__contentsBubble) {
+        @include mixin.media(pc) {
+            top: -60px;
+            left: -30px;
+        }
+    }
 }
 
-.un-shop__layout {
+.un-menuIndex__layout {
     display: grid;
-    gap: 24px;
+    gap: 32px;
     margin-top: 42px;
     
     @include mixin.media(pc) {
@@ -41,3 +35,23 @@ font-size: mixin.rem(22);
         }
     }
 }
+
+.un-menuIndex__button {
+    margin-top: 48px;
+}
+
+
+// un-menu-nonAlcohol
+//=====================================
+
+.un-menu-nonAlcohol {
+    display: grid;
+    row-gap: 20px;
+    
+    @include mixin.media(pc) {
+        grid-template-columns: repeat(2, 1fr) 2fr;
+        row-gap: 0;
+    }
+}
+
+

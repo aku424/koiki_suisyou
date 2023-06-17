@@ -30,6 +30,10 @@
     @include mixin.media(pc){
         min-width: 340px;
         width: fit-content;
+
+        .m-button--narrow & {
+            min-width: auto;
+        }
     }
 }
 
