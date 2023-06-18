@@ -18,11 +18,11 @@
 }
 
 .m-box--narrow {
-    margin-top: 24px;
+    margin-top: 20px;
     padding: 18px 24px;
 
     @include mixin.media(pc) {
-        margin-top: 32px;
+        margin-top: 24px;
         padding: 24px 30px;
     }
 }

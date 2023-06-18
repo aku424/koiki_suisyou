@@ -23,6 +23,7 @@
 }
 
 .m-mediaLayout__media {
+    min-width: 300px;
     flex-grow: 0;
 
     :where(img) {
@@ -40,3 +41,14 @@
         flex-grow: 1;
     }
 }
+
+.m-mediaLayout__text {
+    line-height: 2;
+    font-size: mixin.rem(14);
+
+    @include mixin.media(pc) {
+        font-size: mixin.rem(16);
+    }
+}
+
+

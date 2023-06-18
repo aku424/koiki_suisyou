@@ -1,0 +1,137 @@
+@use '../base' as base;
+@use '../mixin' as mixin;
+
+// un-aboutCourse
+//=====================================
+
+.un-aboutCourse {
+
+}
+
+.un-aboutCourse__notion {
+    font-size: mixin.rem(12);
+    text-align: center;
+    color: base.$font_sub_color;
+    padding: 0 40px;
+}
+
+.un-aboutCourse__heading {
+    position: relative;
+    width: 100%;
+    column-gap: 8px;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 8px;
+    
+    :where(*) {
+        line-height: 1;
+    }
+    
+    @include mixin.media(pc) {
+        flex-direction: row;
+        align-items: flex-end;
+        max-width: calc(44% - 28px);
+    }
+}
+
+.un-aboutCourse__headingBody {
+    font-size: mixin.rem(18);
+    
+    @include mixin.media(pc) {
+        font-size: mixin.rem(22);
+    }
+}
+
+.un-aboutCourse__headingMain {
+    font-size: mixin.rem(48);
+    vertical-align: bottom;
+    
+    @include mixin.media(pc) {
+        font-size: mixin.rem(60);
+    }
+}
+
+.un-aboutCourse__contentsBubble {
+    position: absolute;
+    width: clamp(250px, 56vw, 450px);
+    transform: translateX(0%);
+    right: -25px;
+    bottom: -85px;
+
+    @include mixin.media(pc) {
+        width: clamp(180px, 28.14vw, 376px);
+        transform: translateX(100%);
+        bottom: -20px;
+        right: -70px;
+    }
+}
+
+.un-aboutCourse__headingInfo {
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+}
+
+.un-aboutCourse__headingCourse {
+    font-weight: bold;
+    height: fit-content;
+    font-size: mixin.rem(12);
+    
+    @include mixin.media(pc) {
+        font-size: mixin.rem(14);
+    }
+}
+
+.un-aboutCourse__headingCourseCount, 
+.un-aboutCourse__headingUnit {
+    font-size: mixin.rem(16);
+    
+    @include mixin.media(pc) {
+        font-size: mixin.rem(20);
+    }
+}
+
+.un-aboutCourse__headingPrice {
+    font-size: mixin.rem(24);
+    
+    @include mixin.media(pc) {
+        font-size: mixin.rem(30);
+    }
+}
+
+.un-aboutCourse__layout {
+    margin-top: 28px;
+
+    @include mixin.media(pc) {
+        margin-top: 40px;
+    }
+}
+
+
+.un-aboutCourse__text {
+    margin-top: 30px;
+    text-align: center;
+    font-size: mixin.rem(14);
+    line-height: 2;
+
+    @include mixin.media(pc) {
+        margin-top: 42px;
+    }
+}
+
+.un-aboutCourse__plan {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 28px;
+    gap: 24px;
+    
+    @include mixin.media(pc) {
+        margin-top: 42px;
+        gap: 5.4%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -55,7 +55,7 @@
                                             </a>
                                         </li>
                                         <li class="l-header__navItem">
-                                            <a href="<?php echo home_url('/shop-information'); ?>" class="l-header__navLink">
+                                            <a href="<?php echo home_url('/course'); ?>" class="l-header__navLink">
                                                 <span class="l-header__navText">コースについて</span>
                                                 <span class="l-header__navSubText">CORSE</span>
                                             </a>
@@ -68,7 +68,7 @@
                                         </li>
 
                                         <li class="l-header__navItem">
-                                            <a href="" class="l-header__navLink">
+                                            <a href="<?php echo home_url('/news'); ?>" class="l-header__navLink">
                                                 <span class="l-header__navText">お知らせ</span>
                                                 <span class="l-header__navSubText">NEWS</span>
                                             </a>

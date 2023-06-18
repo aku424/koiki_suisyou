@@ -13,14 +13,16 @@
 
 @for $i from 0 through 100 { 
     .m-width-#{$i}-sp {
-        width: #{percentage($i * 0.01)};
+        width: 100%;
+        max-width: #{percentage($i * 0.01)};
     }
 }
 
 @include mixin.media(pc) {
     @for $i from 0 through 100 { 
         .m-width-#{$i}-pc {
-            width: #{percentage($i * 0.01)};
+            width: 100%;
+            max-width: #{percentage($i * 0.01)};
         }
     }
 }

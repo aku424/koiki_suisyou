@@ -236,9 +236,10 @@
         </div>
     </div><!-- /.l-content -->
 
-    <?php get_template_part('./templates/template-contact'); ?>
-    
+
     <?php get_template_part('./templates/template-breadcrumb'); ?>
+
+    <?php get_template_part('./templates/template-contact'); ?>    
 </main>
 
 <!-- フッター -->

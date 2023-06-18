@@ -26,3 +26,35 @@ add_action("wp_enqueue_scripts", "my_script_init");
 //         return '<img src="' . get_template_directory_uri() . '/img/fuga.jpg"/>'; // fuga.jpg を出力
 //     endif;
 // }
+
+// 投稿一覧のアーカイブを有効
+// function post_has_archive($args, $post_type){
+//     if ('post' == $post_type) {
+//         $args['rewrite'] = true; 
+//         $args['has_archive'] = 'news'; 
+//     }
+//     return $args;
+// }
+// add_filter('register_post_type_args', 'post_has_archive', 10, 2);
+
+function post_has_archive($args, $post_type)
+{
+
+    if ('post' == $post_type) {
+        $args['rewrite'] = true;
+        $args['has_archive'] = 'news'; //任意のスラッグ名
+    }
+    return $args;
+}
+add_filter('register_post_type_args', 'post_has_archive', 10, 2);
+
+
+/* アーカイブページのタイトル変更 */
+add_filter( 'get_the_archive_title', function ( $title ) {
+    if ( is_archive() ) {
+        $title = 'お知らせ';
+    }
+    return $title;
+});
+
+

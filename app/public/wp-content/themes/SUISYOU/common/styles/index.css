@@ -325,12 +325,12 @@ button {
 }
 
 .m-box--narrow {
-  margin-top: 24px;
+  margin-top: 20px;
   padding: 18px 24px;
 }
 @media screen and (min-width: 769px) {
   .m-box--narrow {
-    margin-top: 32px;
+    margin-top: 24px;
     padding: 24px 30px;
   }
 }
@@ -357,712 +357,914 @@ button {
 }
 
 .m-width-0-sp {
-  width: 0%;
+  width: 100%;
+  max-width: 0%;
 }
 
 .m-width-1-sp {
-  width: 1%;
+  width: 100%;
+  max-width: 1%;
 }
 
 .m-width-2-sp {
-  width: 2%;
+  width: 100%;
+  max-width: 2%;
 }
 
 .m-width-3-sp {
-  width: 3%;
+  width: 100%;
+  max-width: 3%;
 }
 
 .m-width-4-sp {
-  width: 4%;
+  width: 100%;
+  max-width: 4%;
 }
 
 .m-width-5-sp {
-  width: 5%;
+  width: 100%;
+  max-width: 5%;
 }
 
 .m-width-6-sp {
-  width: 6%;
+  width: 100%;
+  max-width: 6%;
 }
 
 .m-width-7-sp {
-  width: 7%;
+  width: 100%;
+  max-width: 7%;
 }
 
 .m-width-8-sp {
-  width: 8%;
+  width: 100%;
+  max-width: 8%;
 }
 
 .m-width-9-sp {
-  width: 9%;
+  width: 100%;
+  max-width: 9%;
 }
 
 .m-width-10-sp {
-  width: 10%;
+  width: 100%;
+  max-width: 10%;
 }
 
 .m-width-11-sp {
-  width: 11%;
+  width: 100%;
+  max-width: 11%;
 }
 
 .m-width-12-sp {
-  width: 12%;
+  width: 100%;
+  max-width: 12%;
 }
 
 .m-width-13-sp {
-  width: 13%;
+  width: 100%;
+  max-width: 13%;
 }
 
 .m-width-14-sp {
-  width: 14%;
+  width: 100%;
+  max-width: 14%;
 }
 
 .m-width-15-sp {
-  width: 15%;
+  width: 100%;
+  max-width: 15%;
 }
 
 .m-width-16-sp {
-  width: 16%;
+  width: 100%;
+  max-width: 16%;
 }
 
 .m-width-17-sp {
-  width: 17%;
+  width: 100%;
+  max-width: 17%;
 }
 
 .m-width-18-sp {
-  width: 18%;
+  width: 100%;
+  max-width: 18%;
 }
 
 .m-width-19-sp {
-  width: 19%;
+  width: 100%;
+  max-width: 19%;
 }
 
 .m-width-20-sp {
-  width: 20%;
+  width: 100%;
+  max-width: 20%;
 }
 
 .m-width-21-sp {
-  width: 21%;
+  width: 100%;
+  max-width: 21%;
 }
 
 .m-width-22-sp {
-  width: 22%;
+  width: 100%;
+  max-width: 22%;
 }
 
 .m-width-23-sp {
-  width: 23%;
+  width: 100%;
+  max-width: 23%;
 }
 
 .m-width-24-sp {
-  width: 24%;
+  width: 100%;
+  max-width: 24%;
 }
 
 .m-width-25-sp {
-  width: 25%;
+  width: 100%;
+  max-width: 25%;
 }
 
 .m-width-26-sp {
-  width: 26%;
+  width: 100%;
+  max-width: 26%;
 }
 
 .m-width-27-sp {
-  width: 27%;
+  width: 100%;
+  max-width: 27%;
 }
 
 .m-width-28-sp {
-  width: 28%;
+  width: 100%;
+  max-width: 28%;
 }
 
 .m-width-29-sp {
-  width: 29%;
+  width: 100%;
+  max-width: 29%;
 }
 
 .m-width-30-sp {
-  width: 30%;
+  width: 100%;
+  max-width: 30%;
 }
 
 .m-width-31-sp {
-  width: 31%;
+  width: 100%;
+  max-width: 31%;
 }
 
 .m-width-32-sp {
-  width: 32%;
+  width: 100%;
+  max-width: 32%;
 }
 
 .m-width-33-sp {
-  width: 33%;
+  width: 100%;
+  max-width: 33%;
 }
 
 .m-width-34-sp {
-  width: 34%;
+  width: 100%;
+  max-width: 34%;
 }
 
 .m-width-35-sp {
-  width: 35%;
+  width: 100%;
+  max-width: 35%;
 }
 
 .m-width-36-sp {
-  width: 36%;
+  width: 100%;
+  max-width: 36%;
 }
 
 .m-width-37-sp {
-  width: 37%;
+  width: 100%;
+  max-width: 37%;
 }
 
 .m-width-38-sp {
-  width: 38%;
+  width: 100%;
+  max-width: 38%;
 }
 
 .m-width-39-sp {
-  width: 39%;
+  width: 100%;
+  max-width: 39%;
 }
 
 .m-width-40-sp {
-  width: 40%;
+  width: 100%;
+  max-width: 40%;
 }
 
 .m-width-41-sp {
-  width: 41%;
+  width: 100%;
+  max-width: 41%;
 }
 
 .m-width-42-sp {
-  width: 42%;
+  width: 100%;
+  max-width: 42%;
 }
 
 .m-width-43-sp {
-  width: 43%;
+  width: 100%;
+  max-width: 43%;
 }
 
 .m-width-44-sp {
-  width: 44%;
+  width: 100%;
+  max-width: 44%;
 }
 
 .m-width-45-sp {
-  width: 45%;
+  width: 100%;
+  max-width: 45%;
 }
 
 .m-width-46-sp {
-  width: 46%;
+  width: 100%;
+  max-width: 46%;
 }
 
 .m-width-47-sp {
-  width: 47%;
+  width: 100%;
+  max-width: 47%;
 }
 
 .m-width-48-sp {
-  width: 48%;
+  width: 100%;
+  max-width: 48%;
 }
 
 .m-width-49-sp {
-  width: 49%;
+  width: 100%;
+  max-width: 49%;
 }
 
 .m-width-50-sp {
-  width: 50%;
+  width: 100%;
+  max-width: 50%;
 }
 
 .m-width-51-sp {
-  width: 51%;
+  width: 100%;
+  max-width: 51%;
 }
 
 .m-width-52-sp {
-  width: 52%;
+  width: 100%;
+  max-width: 52%;
 }
 
 .m-width-53-sp {
-  width: 53%;
+  width: 100%;
+  max-width: 53%;
 }
 
 .m-width-54-sp {
-  width: 54%;
+  width: 100%;
+  max-width: 54%;
 }
 
 .m-width-55-sp {
-  width: 55%;
+  width: 100%;
+  max-width: 55%;
 }
 
 .m-width-56-sp {
-  width: 56%;
+  width: 100%;
+  max-width: 56%;
 }
 
 .m-width-57-sp {
-  width: 57%;
+  width: 100%;
+  max-width: 57%;
 }
 
 .m-width-58-sp {
-  width: 58%;
+  width: 100%;
+  max-width: 58%;
 }
 
 .m-width-59-sp {
-  width: 59%;
+  width: 100%;
+  max-width: 59%;
 }
 
 .m-width-60-sp {
-  width: 60%;
+  width: 100%;
+  max-width: 60%;
 }
 
 .m-width-61-sp {
-  width: 61%;
+  width: 100%;
+  max-width: 61%;
 }
 
 .m-width-62-sp {
-  width: 62%;
+  width: 100%;
+  max-width: 62%;
 }
 
 .m-width-63-sp {
-  width: 63%;
+  width: 100%;
+  max-width: 63%;
 }
 
 .m-width-64-sp {
-  width: 64%;
+  width: 100%;
+  max-width: 64%;
 }
 
 .m-width-65-sp {
-  width: 65%;
+  width: 100%;
+  max-width: 65%;
 }
 
 .m-width-66-sp {
-  width: 66%;
+  width: 100%;
+  max-width: 66%;
 }
 
 .m-width-67-sp {
-  width: 67%;
+  width: 100%;
+  max-width: 67%;
 }
 
 .m-width-68-sp {
-  width: 68%;
+  width: 100%;
+  max-width: 68%;
 }
 
 .m-width-69-sp {
-  width: 69%;
+  width: 100%;
+  max-width: 69%;
 }
 
 .m-width-70-sp {
-  width: 70%;
+  width: 100%;
+  max-width: 70%;
 }
 
 .m-width-71-sp {
-  width: 71%;
+  width: 100%;
+  max-width: 71%;
 }
 
 .m-width-72-sp {
-  width: 72%;
+  width: 100%;
+  max-width: 72%;
 }
 
 .m-width-73-sp {
-  width: 73%;
+  width: 100%;
+  max-width: 73%;
 }
 
 .m-width-74-sp {
-  width: 74%;
+  width: 100%;
+  max-width: 74%;
 }
 
 .m-width-75-sp {
-  width: 75%;
+  width: 100%;
+  max-width: 75%;
 }
 
 .m-width-76-sp {
-  width: 76%;
+  width: 100%;
+  max-width: 76%;
 }
 
 .m-width-77-sp {
-  width: 77%;
+  width: 100%;
+  max-width: 77%;
 }
 
 .m-width-78-sp {
-  width: 78%;
+  width: 100%;
+  max-width: 78%;
 }
 
 .m-width-79-sp {
-  width: 79%;
+  width: 100%;
+  max-width: 79%;
 }
 
 .m-width-80-sp {
-  width: 80%;
+  width: 100%;
+  max-width: 80%;
 }
 
 .m-width-81-sp {
-  width: 81%;
+  width: 100%;
+  max-width: 81%;
 }
 
 .m-width-82-sp {
-  width: 82%;
+  width: 100%;
+  max-width: 82%;
 }
 
 .m-width-83-sp {
-  width: 83%;
+  width: 100%;
+  max-width: 83%;
 }
 
 .m-width-84-sp {
-  width: 84%;
+  width: 100%;
+  max-width: 84%;
 }
 
 .m-width-85-sp {
-  width: 85%;
+  width: 100%;
+  max-width: 85%;
 }
 
 .m-width-86-sp {
-  width: 86%;
+  width: 100%;
+  max-width: 86%;
 }
 
 .m-width-87-sp {
-  width: 87%;
+  width: 100%;
+  max-width: 87%;
 }
 
 .m-width-88-sp {
-  width: 88%;
+  width: 100%;
+  max-width: 88%;
 }
 
 .m-width-89-sp {
-  width: 89%;
+  width: 100%;
+  max-width: 89%;
 }
 
 .m-width-90-sp {
-  width: 90%;
+  width: 100%;
+  max-width: 90%;
 }
 
 .m-width-91-sp {
-  width: 91%;
+  width: 100%;
+  max-width: 91%;
 }
 
 .m-width-92-sp {
-  width: 92%;
+  width: 100%;
+  max-width: 92%;
 }
 
 .m-width-93-sp {
-  width: 93%;
+  width: 100%;
+  max-width: 93%;
 }
 
 .m-width-94-sp {
-  width: 94%;
+  width: 100%;
+  max-width: 94%;
 }
 
 .m-width-95-sp {
-  width: 95%;
+  width: 100%;
+  max-width: 95%;
 }
 
 .m-width-96-sp {
-  width: 96%;
+  width: 100%;
+  max-width: 96%;
 }
 
 .m-width-97-sp {
-  width: 97%;
+  width: 100%;
+  max-width: 97%;
 }
 
 .m-width-98-sp {
-  width: 98%;
+  width: 100%;
+  max-width: 98%;
 }
 
 .m-width-99-sp {
-  width: 99%;
+  width: 100%;
+  max-width: 99%;
 }
 
 .m-width-100-sp {
   width: 100%;
+  max-width: 100%;
 }
 
 @media screen and (min-width: 769px) {
   .m-width-0-pc {
-    width: 0%;
+    width: 100%;
+    max-width: 0%;
   }
   .m-width-1-pc {
-    width: 1%;
+    width: 100%;
+    max-width: 1%;
   }
   .m-width-2-pc {
-    width: 2%;
+    width: 100%;
+    max-width: 2%;
   }
   .m-width-3-pc {
-    width: 3%;
+    width: 100%;
+    max-width: 3%;
   }
   .m-width-4-pc {
-    width: 4%;
+    width: 100%;
+    max-width: 4%;
   }
   .m-width-5-pc {
-    width: 5%;
+    width: 100%;
+    max-width: 5%;
   }
   .m-width-6-pc {
-    width: 6%;
+    width: 100%;
+    max-width: 6%;
   }
   .m-width-7-pc {
-    width: 7%;
+    width: 100%;
+    max-width: 7%;
   }
   .m-width-8-pc {
-    width: 8%;
+    width: 100%;
+    max-width: 8%;
   }
   .m-width-9-pc {
-    width: 9%;
+    width: 100%;
+    max-width: 9%;
   }
   .m-width-10-pc {
-    width: 10%;
+    width: 100%;
+    max-width: 10%;
   }
   .m-width-11-pc {
-    width: 11%;
+    width: 100%;
+    max-width: 11%;
   }
   .m-width-12-pc {
-    width: 12%;
+    width: 100%;
+    max-width: 12%;
   }
   .m-width-13-pc {
-    width: 13%;
+    width: 100%;
+    max-width: 13%;
   }
   .m-width-14-pc {
-    width: 14%;
+    width: 100%;
+    max-width: 14%;
   }
   .m-width-15-pc {
-    width: 15%;
+    width: 100%;
+    max-width: 15%;
   }
   .m-width-16-pc {
-    width: 16%;
+    width: 100%;
+    max-width: 16%;
   }
   .m-width-17-pc {
-    width: 17%;
+    width: 100%;
+    max-width: 17%;
   }
   .m-width-18-pc {
-    width: 18%;
+    width: 100%;
+    max-width: 18%;
   }
   .m-width-19-pc {
-    width: 19%;
+    width: 100%;
+    max-width: 19%;
   }
   .m-width-20-pc {
-    width: 20%;
+    width: 100%;
+    max-width: 20%;
   }
   .m-width-21-pc {
-    width: 21%;
+    width: 100%;
+    max-width: 21%;
   }
   .m-width-22-pc {
-    width: 22%;
+    width: 100%;
+    max-width: 22%;
   }
   .m-width-23-pc {
-    width: 23%;
+    width: 100%;
+    max-width: 23%;
   }
   .m-width-24-pc {
-    width: 24%;
+    width: 100%;
+    max-width: 24%;
   }
   .m-width-25-pc {
-    width: 25%;
+    width: 100%;
+    max-width: 25%;
   }
   .m-width-26-pc {
-    width: 26%;
+    width: 100%;
+    max-width: 26%;
   }
   .m-width-27-pc {
-    width: 27%;
+    width: 100%;
+    max-width: 27%;
   }
   .m-width-28-pc {
-    width: 28%;
+    width: 100%;
+    max-width: 28%;
   }
   .m-width-29-pc {
-    width: 29%;
+    width: 100%;
+    max-width: 29%;
   }
   .m-width-30-pc {
-    width: 30%;
+    width: 100%;
+    max-width: 30%;
   }
   .m-width-31-pc {
-    width: 31%;
+    width: 100%;
+    max-width: 31%;
   }
   .m-width-32-pc {
-    width: 32%;
+    width: 100%;
+    max-width: 32%;
   }
   .m-width-33-pc {
-    width: 33%;
+    width: 100%;
+    max-width: 33%;
   }
   .m-width-34-pc {
-    width: 34%;
+    width: 100%;
+    max-width: 34%;
   }
   .m-width-35-pc {
-    width: 35%;
+    width: 100%;
+    max-width: 35%;
   }
   .m-width-36-pc {
-    width: 36%;
+    width: 100%;
+    max-width: 36%;
   }
   .m-width-37-pc {
-    width: 37%;
+    width: 100%;
+    max-width: 37%;
   }
   .m-width-38-pc {
-    width: 38%;
+    width: 100%;
+    max-width: 38%;
   }
   .m-width-39-pc {
-    width: 39%;
+    width: 100%;
+    max-width: 39%;
   }
   .m-width-40-pc {
-    width: 40%;
+    width: 100%;
+    max-width: 40%;
   }
   .m-width-41-pc {
-    width: 41%;
+    width: 100%;
+    max-width: 41%;
   }
   .m-width-42-pc {
-    width: 42%;
+    width: 100%;
+    max-width: 42%;
   }
   .m-width-43-pc {
-    width: 43%;
+    width: 100%;
+    max-width: 43%;
   }
   .m-width-44-pc {
-    width: 44%;
+    width: 100%;
+    max-width: 44%;
   }
   .m-width-45-pc {
-    width: 45%;
+    width: 100%;
+    max-width: 45%;
   }
   .m-width-46-pc {
-    width: 46%;
+    width: 100%;
+    max-width: 46%;
   }
   .m-width-47-pc {
-    width: 47%;
+    width: 100%;
+    max-width: 47%;
   }
   .m-width-48-pc {
-    width: 48%;
+    width: 100%;
+    max-width: 48%;
   }
   .m-width-49-pc {
-    width: 49%;
+    width: 100%;
+    max-width: 49%;
   }
   .m-width-50-pc {
-    width: 50%;
+    width: 100%;
+    max-width: 50%;
   }
   .m-width-51-pc {
-    width: 51%;
+    width: 100%;
+    max-width: 51%;
   }
   .m-width-52-pc {
-    width: 52%;
+    width: 100%;
+    max-width: 52%;
   }
   .m-width-53-pc {
-    width: 53%;
+    width: 100%;
+    max-width: 53%;
   }
   .m-width-54-pc {
-    width: 54%;
+    width: 100%;
+    max-width: 54%;
   }
   .m-width-55-pc {
-    width: 55%;
+    width: 100%;
+    max-width: 55%;
   }
   .m-width-56-pc {
-    width: 56%;
+    width: 100%;
+    max-width: 56%;
   }
   .m-width-57-pc {
-    width: 57%;
+    width: 100%;
+    max-width: 57%;
   }
   .m-width-58-pc {
-    width: 58%;
+    width: 100%;
+    max-width: 58%;
   }
   .m-width-59-pc {
-    width: 59%;
+    width: 100%;
+    max-width: 59%;
   }
   .m-width-60-pc {
-    width: 60%;
+    width: 100%;
+    max-width: 60%;
   }
   .m-width-61-pc {
-    width: 61%;
+    width: 100%;
+    max-width: 61%;
   }
   .m-width-62-pc {
-    width: 62%;
+    width: 100%;
+    max-width: 62%;
   }
   .m-width-63-pc {
-    width: 63%;
+    width: 100%;
+    max-width: 63%;
   }
   .m-width-64-pc {
-    width: 64%;
+    width: 100%;
+    max-width: 64%;
   }
   .m-width-65-pc {
-    width: 65%;
+    width: 100%;
+    max-width: 65%;
   }
   .m-width-66-pc {
-    width: 66%;
+    width: 100%;
+    max-width: 66%;
   }
   .m-width-67-pc {
-    width: 67%;
+    width: 100%;
+    max-width: 67%;
   }
   .m-width-68-pc {
-    width: 68%;
+    width: 100%;
+    max-width: 68%;
   }
   .m-width-69-pc {
-    width: 69%;
+    width: 100%;
+    max-width: 69%;
   }
   .m-width-70-pc {
-    width: 70%;
+    width: 100%;
+    max-width: 70%;
   }
   .m-width-71-pc {
-    width: 71%;
+    width: 100%;
+    max-width: 71%;
   }
   .m-width-72-pc {
-    width: 72%;
+    width: 100%;
+    max-width: 72%;
   }
   .m-width-73-pc {
-    width: 73%;
+    width: 100%;
+    max-width: 73%;
   }
   .m-width-74-pc {
-    width: 74%;
+    width: 100%;
+    max-width: 74%;
   }
   .m-width-75-pc {
-    width: 75%;
+    width: 100%;
+    max-width: 75%;
   }
   .m-width-76-pc {
-    width: 76%;
+    width: 100%;
+    max-width: 76%;
   }
   .m-width-77-pc {
-    width: 77%;
+    width: 100%;
+    max-width: 77%;
   }
   .m-width-78-pc {
-    width: 78%;
+    width: 100%;
+    max-width: 78%;
   }
   .m-width-79-pc {
-    width: 79%;
+    width: 100%;
+    max-width: 79%;
   }
   .m-width-80-pc {
-    width: 80%;
+    width: 100%;
+    max-width: 80%;
   }
   .m-width-81-pc {
-    width: 81%;
+    width: 100%;
+    max-width: 81%;
   }
   .m-width-82-pc {
-    width: 82%;
+    width: 100%;
+    max-width: 82%;
   }
   .m-width-83-pc {
-    width: 83%;
+    width: 100%;
+    max-width: 83%;
   }
   .m-width-84-pc {
-    width: 84%;
+    width: 100%;
+    max-width: 84%;
   }
   .m-width-85-pc {
-    width: 85%;
+    width: 100%;
+    max-width: 85%;
   }
   .m-width-86-pc {
-    width: 86%;
+    width: 100%;
+    max-width: 86%;
   }
   .m-width-87-pc {
-    width: 87%;
+    width: 100%;
+    max-width: 87%;
   }
   .m-width-88-pc {
-    width: 88%;
+    width: 100%;
+    max-width: 88%;
   }
   .m-width-89-pc {
-    width: 89%;
+    width: 100%;
+    max-width: 89%;
   }
   .m-width-90-pc {
-    width: 90%;
+    width: 100%;
+    max-width: 90%;
   }
   .m-width-91-pc {
-    width: 91%;
+    width: 100%;
+    max-width: 91%;
   }
   .m-width-92-pc {
-    width: 92%;
+    width: 100%;
+    max-width: 92%;
   }
   .m-width-93-pc {
-    width: 93%;
+    width: 100%;
+    max-width: 93%;
   }
   .m-width-94-pc {
-    width: 94%;
+    width: 100%;
+    max-width: 94%;
   }
   .m-width-95-pc {
-    width: 95%;
+    width: 100%;
+    max-width: 95%;
   }
   .m-width-96-pc {
-    width: 96%;
+    width: 100%;
+    max-width: 96%;
   }
   .m-width-97-pc {
-    width: 97%;
+    width: 100%;
+    max-width: 97%;
   }
   .m-width-98-pc {
-    width: 98%;
+    width: 100%;
+    max-width: 98%;
   }
   .m-width-99-pc {
-    width: 99%;
+    width: 100%;
+    max-width: 99%;
   }
   .m-width-100-pc {
     width: 100%;
+    max-width: 100%;
   }
 }
 .m-mt-0-sp {
@@ -6423,7 +6625,7 @@ button {
 }
 
 .breadcrumbs {
-  padding: 60px 40px 0;
+  padding: 0 40px;
   display: flex;
   justify-content: center;
   -moz-column-gap: 8px;
@@ -6437,7 +6639,7 @@ button {
 }
 @media screen and (min-width: 769px) {
   .breadcrumbs {
-    padding: 96px 80px 0;
+    padding: 0 80px;
   }
 }
 
@@ -6471,6 +6673,7 @@ button {
 }
 
 .m-mediaLayout__media {
+  min-width: 300px;
   flex-grow: 0;
 }
 .m-mediaLayout__media :where(img) {
@@ -6486,6 +6689,16 @@ button {
 @media screen and (min-width: 769px) {
   .m-mediaLayout__contents {
     flex-grow: 1;
+  }
+}
+
+.m-mediaLayout__text {
+  line-height: 2;
+  font-size: calc(14 / 16 * 1rem);
+}
+@media screen and (min-width: 769px) {
+  .m-mediaLayout__text {
+    font-size: calc(16 / 16 * 1rem);
   }
 }
 
@@ -7311,9 +7524,6 @@ button {
   font-size: calc(14 / 16 * 1rem);
 }
 
-/*====================================================================
-ページ共通スタイル
-====================================================================*/
 @media screen and (min-width: 769px) {
   .un-menuIndex :where(.m-menu__contentsBubble) {
     top: -60px;
@@ -7369,5 +7579,144 @@ button {
   .un-menu-nonAlcohol {
     grid-template-columns: repeat(2, 1fr) 2fr;
     row-gap: 0;
+  }
+}
+
+.un-aboutCourse__notion {
+  font-size: calc(12 / 16 * 1rem);
+  text-align: center;
+  color: #999;
+  padding: 0 40px;
+}
+
+.un-aboutCourse__heading {
+  position: relative;
+  width: 100%;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 8px;
+}
+.un-aboutCourse__heading :where(*) {
+  line-height: 1;
+}
+@media screen and (min-width: 769px) {
+  .un-aboutCourse__heading {
+    flex-direction: row;
+    align-items: flex-end;
+    max-width: calc(44% - 28px);
+  }
+}
+
+.un-aboutCourse__headingBody {
+  font-size: calc(18 / 16 * 1rem);
+}
+@media screen and (min-width: 769px) {
+  .un-aboutCourse__headingBody {
+    font-size: calc(22 / 16 * 1rem);
+  }
+}
+
+.un-aboutCourse__headingMain {
+  font-size: calc(48 / 16 * 1rem);
+  vertical-align: bottom;
+}
+@media screen and (min-width: 769px) {
+  .un-aboutCourse__headingMain {
+    font-size: calc(60 / 16 * 1rem);
+  }
+}
+
+.un-aboutCourse__contentsBubble {
+  position: absolute;
+  width: clamp(250px, 56vw, 450px);
+  transform: translateX(0%);
+  right: -25px;
+  bottom: -85px;
+}
+@media screen and (min-width: 769px) {
+  .un-aboutCourse__contentsBubble {
+    width: clamp(180px, 28.14vw, 376px);
+    transform: translateX(100%);
+    bottom: -20px;
+    right: -70px;
+  }
+}
+
+.un-aboutCourse__headingInfo {
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.un-aboutCourse__headingCourse {
+  font-weight: bold;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: calc(12 / 16 * 1rem);
+}
+@media screen and (min-width: 769px) {
+  .un-aboutCourse__headingCourse {
+    font-size: calc(14 / 16 * 1rem);
+  }
+}
+
+.un-aboutCourse__headingCourseCount,
+.un-aboutCourse__headingUnit {
+  font-size: calc(16 / 16 * 1rem);
+}
+@media screen and (min-width: 769px) {
+  .un-aboutCourse__headingCourseCount,
+  .un-aboutCourse__headingUnit {
+    font-size: calc(20 / 16 * 1rem);
+  }
+}
+
+.un-aboutCourse__headingPrice {
+  font-size: calc(24 / 16 * 1rem);
+}
+@media screen and (min-width: 769px) {
+  .un-aboutCourse__headingPrice {
+    font-size: calc(30 / 16 * 1rem);
+  }
+}
+
+.un-aboutCourse__layout {
+  margin-top: 28px;
+}
+@media screen and (min-width: 769px) {
+  .un-aboutCourse__layout {
+    margin-top: 40px;
+  }
+}
+
+.un-aboutCourse__text {
+  margin-top: 30px;
+  text-align: center;
+  font-size: calc(14 / 16 * 1rem);
+  line-height: 2;
+}
+@media screen and (min-width: 769px) {
+  .un-aboutCourse__text {
+    margin-top: 42px;
+  }
+}
+
+.un-aboutCourse__plan {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 28px;
+  gap: 24px;
+}
+@media screen and (min-width: 769px) {
+  .un-aboutCourse__plan {
+    margin-top: 42px;
+    gap: 5.4%;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
