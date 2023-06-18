@@ -63,7 +63,6 @@ export default class ViewMore {
         this.hook.addEventListener('click', (e)=>{
             this.setNextItem();
             this.showTargetItem();
-            console.log(this.remainingItems.length);
 
             if (!this.remainingItems.length) {
                 this.hook.remove();

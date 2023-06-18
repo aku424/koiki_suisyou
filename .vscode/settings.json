@@ -1,0 +1,18 @@
+{
+    "liveSassCompile.settings.formats": [ 
+    {
+      "format": "expanded", 
+      "extensionName": ".css", 
+        "savePath": "app/public/wp-content/themes/SUISYOU/common/styles"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": [ 
+  "app/**",
+  "conf/**",
+  "log/**"
+],
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "emmet.preferences": {
+      "filter.commentAfter": "<!-- /[#ID][.CLASS] -->"
+    }
+}
