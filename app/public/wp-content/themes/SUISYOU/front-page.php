@@ -109,79 +109,79 @@
                                     <span class="un-menu__headingSubNotion">※価格は全て税込です。</span>
                                 </span>
                             </h2>
-                            <div class="un-menu__leftContents01 m-menu__contents">
-                                <picture class="m-menu__media">
+                            <div class="un-menu__leftContents01 m-media">
+                                <picture class="m-media__media">
                                     <source srcset="<?php echo get_template_directory_uri()?>/img/img_index_06.webp" type="image/webp">
                                     <img src="<?php echo get_template_directory_uri()?>/img/img_index_06.png" alt="">
                                 </picture>
-                                <img src="<?php echo get_template_directory_uri()?>/img/img_index_07.svg" alt="翠翔といえばこれ！野菜と地鶏が鶏出汁でさらにウマく！" class="m-menu__contentsBubble">
-                                <div class="m-menu__text">
-                                    <span class="m-menu__textMenu">焼き鳥盛り合わせ</span>
-                                    <span class="m-menu__price">2260円</span>
-                                </div><!-- /.m-menu__text -->
+                                <img src="<?php echo get_template_directory_uri()?>/img/img_index_07.svg" alt="翠翔といえばこれ！野菜と地鶏が鶏出汁でさらにウマく！" class="m-mediaBubble">
+                                <div class="m-media__text">
+                                    <span class="m-media__textMenu">焼き鳥盛り合わせ</span>
+                                    <span class="m-media__price">2260円</span>
+                                </div><!-- /.m-media__text -->
                             </div><!-- /.un-menu__leftContents01 -->
 
-                            <div class="un-menu__leftContents02 m-menu__contents">
-                            <picture class="m-menu__media">
+                            <div class="un-menu__leftContents02 m-media">
+                            <picture class="m-media__media">
                                     <source srcset="<?php echo get_template_directory_uri()?>/img/img_index_08.webp" type="image/webp">
                                     <img src="<?php echo get_template_directory_uri()?>/img/img_index_08.png" alt="">
                                 </picture>
-                                <img src="<?php echo get_template_directory_uri()?>/img/img_index_09.svg" alt="" class="m-menu__contentsBubble">
-                                <div class="m-menu__text">
-                                    <span class="m-menu__textMenu">名古屋コーチン有精卵だしまき</span>
-                                    <span class="m-menu__price">790円</span>
-                                </div><!-- /.m-menu__text -->
+                                <img src="<?php echo get_template_directory_uri()?>/img/img_index_09.svg" alt="" class="m-mediaBubble">
+                                <div class="m-media__text">
+                                    <span class="m-media__textMenu">名古屋コーチン有精卵だしまき</span>
+                                    <span class="m-media__price">790円</span>
+                                </div><!-- /.m-media__text -->
                             </div><!-- /.un-menu__leftContents01 -->
 
-                            <div class="un-menu__leftContents03 m-menu__contents">
-                                <picture class="m-menu__media">
+                            <div class="un-menu__leftContents03 m-media">
+                                <picture class="m-media__media">
                                     <source srcset="<?php echo get_template_directory_uri()?>/img/img_index_10.webp" type="image/webp">
                                     <img src="<?php echo get_template_directory_uri()?>/img/img_index_10.png" alt="">
                                 </picture>
-                                <img src="<?php echo get_template_directory_uri()?>/img/img_index_11.svg" alt="" class="m-menu__contentsBubble">
-                                <div class="m-menu__text">
-                                    <span class="m-menu__textMenu">柔らかい蒸し鶏の冷菜香味黒酢ソース</span>
-                                    <span class="m-menu__price">1610円</span>
-                                </div><!-- /.m-menu__text -->
+                                <img src="<?php echo get_template_directory_uri()?>/img/img_index_11.svg" alt="" class="m-mediaBubble">
+                                <div class="m-media__text">
+                                    <span class="m-media__textMenu">柔らかい蒸し鶏の冷菜香味黒酢ソース</span>
+                                    <span class="m-media__price">1610円</span>
+                                </div><!-- /.m-media__text -->
                             </div><!-- /.un-menu__leftContents01 -->
 
                         </div><!-- /.un-menu__left -->
 
                         <div class="un-menu__right">
-                            <div class="un-menu__rightContents01 m-menu__contents">
-                                <picture class="m-menu__media">
+                            <div class="un-menu__rightContents01 m-media">
+                                <picture class="m-media__media">
                                     <source srcset="<?php echo get_template_directory_uri()?>/img/img_index_12.webp" type="image/webp">
                                     <img src="<?php echo get_template_directory_uri()?>/img/img_index_12.png" alt="">
                                 </picture>
-                                <img src="<?php echo get_template_directory_uri()?>/img/img_index_13.svg" alt="" class="m-menu__contentsBubble">
-                                <div class="m-menu__text">
-                                    <span class="m-menu__textMenu">月見つくね</span>
-                                    <span class="m-menu__price">480円</span>
-                                </div><!-- /.m-menu__text -->
+                                <img src="<?php echo get_template_directory_uri()?>/img/img_index_13.svg" alt="" class="m-mediaBubble">
+                                <div class="m-media__text">
+                                    <span class="m-media__textMenu">月見つくね</span>
+                                    <span class="m-media__price">480円</span>
+                                </div><!-- /.m-media__text -->
                             </div><!-- /.un-menu__rightContents01 -->
 
-                            <div class="un-menu__rightContents02 m-menu__contents">
-                                <picture class="m-menu__media">
+                            <div class="un-menu__rightContents02 m-media">
+                                <picture class="m-media__media">
                                     <source srcset="<?php echo get_template_directory_uri()?>/img/img_index_14.webp" type="image/webp">
                                     <img src="<?php echo get_template_directory_uri()?>/img/img_index_14.png" alt="">
                                 </picture>
-                                <img src="<?php echo get_template_directory_uri()?>/img/img_index_15.svg" alt="" class="m-menu__contentsBubble">
-                                <div class="m-menu__text">
-                                    <span class="m-menu__textMenu">SUISYOU塩鍋</span>
-                                    <span class="m-menu__price">1人前 1610円〜</span>
-                                </div><!-- /.m-menu__text -->
+                                <img src="<?php echo get_template_directory_uri()?>/img/img_index_15.svg" alt="" class="m-mediaBubble">
+                                <div class="m-media__text">
+                                    <span class="m-media__textMenu">SUISYOU塩鍋</span>
+                                    <span class="m-media__price">1人前 1610円〜</span>
+                                </div><!-- /.m-media__text -->
                             </div><!-- /.un-menu__rightContents01 -->
 
-                            <div class="un-menu__rightContents03 m-menu__contents">
-                                <picture class="m-menu__media">
+                            <div class="un-menu__rightContents03 m-media">
+                                <picture class="m-media__media">
                                     <source srcset="<?php echo get_template_directory_uri()?>/img/img_index_16.webp" type="image/webp">
                                     <img src="<?php echo get_template_directory_uri()?>/img/img_index_16.png" alt="">
                                 </picture>
-                                <img src="<?php echo get_template_directory_uri()?>/img/img_index_17.svg" alt="やっぱ串10 !他店じゃ出せないこの美味さ！" class="m-menu__contentsBubble">
-                                <div class="m-menu__text">
-                                    <span class="m-menu__textMenu">SUISYOU 水炊き</span>
-                                    <span class="m-menu__price">1人前 1610円〜</span>
-                                </div><!-- /.m-menu__text -->
+                                <img src="<?php echo get_template_directory_uri()?>/img/img_index_17.svg" alt="やっぱ串10 !他店じゃ出せないこの美味さ！" class="m-mediaBubble">
+                                <div class="m-media__text">
+                                    <span class="m-media__textMenu">SUISYOU 水炊き</span>
+                                    <span class="m-media__price">1人前 1610円〜</span>
+                                </div><!-- /.m-media__text -->
                             </div><!-- /.un-menu__rightContents01 -->
 
                             <div class="un-menu__button">

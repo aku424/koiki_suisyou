@@ -27,223 +27,223 @@
                 <div class="un-menuIndex">
                     <ul class="un-menuIndex__layout col-02">
                         <li class="un-menuIndex__item m-menu--large">
-                            <div class="m-menu__contents">
-                                <div class="m-menu__media">
+                            <div class="m-media">
+                                <div class="m-media__media">
                                     <img src="https://placehold.jp/460x320.png" alt="">
                                 </div>
-                                <img src="<?php echo get_template_directory_uri()?>/img/img_index_07.svg" alt="翠翔といえばこれ！野菜と地鶏が鶏出汁でさらにウマく！" class="m-menu__contentsBubble">
-                                <div class="m-menu__text">
-                                    <span class="m-menu__textMenu">テキストテキスト</span>
-                                    <span class="m-menu__price">0000円</span>
-                                </div><!-- /.m-menu__text -->
-                                <p class="m-menu__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
-                                <ul class="m-menu__label">
-                                    <li class="m-menu__labelItem">テキストテキストテキスト</li>
-                                    <li class="m-menu__labelItem">テキスト</li>
+                                <img src="<?php echo get_template_directory_uri()?>/img/img_index_07.svg" alt="翠翔といえばこれ！野菜と地鶏が鶏出汁でさらにウマく！" class="m-mediaBubble">
+                                <div class="m-media__text">
+                                    <span class="m-media__textMenu">テキストテキスト</span>
+                                    <span class="m-media__price">0000円</span>
+                                </div><!-- /.m-media__text -->
+                                <p class="m-media__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
+                                <ul class="m-media__label">
+                                    <li class="m-media__labelItem">テキストテキストテキスト</li>
+                                    <li class="m-media__labelItem">テキスト</li>
                                 </ul>
-                            </div><!-- /.m-menu__contents -->
+                            </div><!-- /.m-media -->
                         </li>
 
                         <li class="un-menuIndex__item m-menu--large">
-                            <div class="m-menu__contents">
-                                <div class="m-menu__media">
+                            <div class="m-media">
+                                <div class="m-media__media">
                                     <img src="https://placehold.jp/460x320.png" alt="">
                                 </div>
-                                <img src="<?php echo get_template_directory_uri()?>/img/img_index_07.svg" alt="翠翔といえばこれ！野菜と地鶏が鶏出汁でさらにウマく！" class="m-menu__contentsBubble">
-                                <div class="m-menu__text">
-                                    <span class="m-menu__textMenu">テキストテキスト</span>
-                                    <span class="m-menu__price">0000円</span>
-                                </div><!-- /.m-menu__text -->
-                                <p class="m-menu__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
-                                <ul class="m-menu__label">
-                                    <li class="m-menu__labelItem">テキストテキストテキスト</li>
-                                    <li class="m-menu__labelItem">テキスト</li>
+                                <img src="<?php echo get_template_directory_uri()?>/img/img_index_07.svg" alt="翠翔といえばこれ！野菜と地鶏が鶏出汁でさらにウマく！" class="m-mediaBubble">
+                                <div class="m-media__text">
+                                    <span class="m-media__textMenu">テキストテキスト</span>
+                                    <span class="m-media__price">0000円</span>
+                                </div><!-- /.m-media__text -->
+                                <p class="m-media__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
+                                <ul class="m-media__label">
+                                    <li class="m-media__labelItem">テキストテキストテキスト</li>
+                                    <li class="m-media__labelItem">テキスト</li>
                                 </ul>
-                            </div><!-- /.m-menu__contents -->
+                            </div><!-- /.m-media -->
                         </li>
                     </ul><!-- /.un-menuIndex__layout -->
 
                     <div class="js-viewMore">
                         <div class="un-menuIndex__layout col-03">
                             <div class="un-menuIndex__item js-viewMore__item">
-                                <div class="m-menu__contents">
-                                    <div class="m-menu__media">
+                                <div class="m-media">
+                                    <div class="m-media__media">
                                         <img src="https://placehold.jp/460x320.png" alt="">
                                     </div>
-                                    <div class="m-menu__text">
-                                        <span class="m-menu__textMenu">テキストテキスト</span>
-                                        <span class="m-menu__price">0000円</span>
-                                    </div><!-- /.m-menu__text -->
-                                    <p class="m-menu__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
-                                    <ul class="m-menu__label">
-                                        <li class="m-menu__labelItem">テキストテキストテキスト</li>
-                                        <li class="m-menu__labelItem">テキスト</li>
+                                    <div class="m-media__text">
+                                        <span class="m-media__textMenu">テキストテキスト</span>
+                                        <span class="m-media__price">0000円</span>
+                                    </div><!-- /.m-media__text -->
+                                    <p class="m-media__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
+                                    <ul class="m-media__label">
+                                        <li class="m-media__labelItem">テキストテキストテキスト</li>
+                                        <li class="m-media__labelItem">テキスト</li>
                                     </ul>
-                                </div><!-- /.m-menu__contents -->
+                                </div><!-- /.m-media -->
                             </div>
     
                             <div class="un-menuIndex__item js-viewMore__item">
-                                <div class="m-menu__contents">
-                                    <div class="m-menu__media">
+                                <div class="m-media">
+                                    <div class="m-media__media">
                                         <img src="https://placehold.jp/460x320.png" alt="">
                                     </div>
-                                    <div class="m-menu__text">
-                                        <span class="m-menu__textMenu">テキストテキスト</span>
-                                        <span class="m-menu__price">0000円</span>
-                                    </div><!-- /.m-menu__text -->
-                                    <p class="m-menu__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
-                                    <ul class="m-menu__label">
-                                        <li class="m-menu__labelItem">テキストテキストテキスト</li>
-                                        <li class="m-menu__labelItem">テキスト</li>
+                                    <div class="m-media__text">
+                                        <span class="m-media__textMenu">テキストテキスト</span>
+                                        <span class="m-media__price">0000円</span>
+                                    </div><!-- /.m-media__text -->
+                                    <p class="m-media__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
+                                    <ul class="m-media__label">
+                                        <li class="m-media__labelItem">テキストテキストテキスト</li>
+                                        <li class="m-media__labelItem">テキスト</li>
                                     </ul>
-                                </div><!-- /.m-menu__contents -->
+                                </div><!-- /.m-media -->
                             </div>
     
                             <div class="un-menuIndex__item js-viewMore__item">
-                                <div class="m-menu__contents">
-                                    <div class="m-menu__media">
+                                <div class="m-media">
+                                    <div class="m-media__media">
                                         <img src="https://placehold.jp/460x320.png" alt="">
                                     </div>
-                                    <div class="m-menu__text">
-                                        <span class="m-menu__textMenu">テキストテキスト</span>
-                                        <span class="m-menu__price">0000円</span>
-                                    </div><!-- /.m-menu__text -->
-                                    <p class="m-menu__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
-                                    <ul class="m-menu__label">
-                                        <li class="m-menu__labelItem">テキストテキストテキスト</li>
-                                        <li class="m-menu__labelItem">テキスト</li>
+                                    <div class="m-media__text">
+                                        <span class="m-media__textMenu">テキストテキスト</span>
+                                        <span class="m-media__price">0000円</span>
+                                    </div><!-- /.m-media__text -->
+                                    <p class="m-media__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
+                                    <ul class="m-media__label">
+                                        <li class="m-media__labelItem">テキストテキストテキスト</li>
+                                        <li class="m-media__labelItem">テキスト</li>
                                     </ul>
-                                </div><!-- /.m-menu__contents -->
+                                </div><!-- /.m-media -->
                             </div>
     
                             <div class="un-menuIndex__item js-viewMore__item">
-                                <div class="m-menu__contents">
-                                    <div class="m-menu__media">
+                                <div class="m-media">
+                                    <div class="m-media__media">
                                         <img src="https://placehold.jp/460x320.png" alt="">
                                     </div>
-                                    <div class="m-menu__text">
-                                        <span class="m-menu__textMenu">テキストテキスト</span>
-                                        <span class="m-menu__price">0000円</span>
-                                    </div><!-- /.m-menu__text -->
-                                    <p class="m-menu__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
-                                    <ul class="m-menu__label">
-                                        <li class="m-menu__labelItem">テキストテキストテキスト</li>
-                                        <li class="m-menu__labelItem">テキスト</li>
+                                    <div class="m-media__text">
+                                        <span class="m-media__textMenu">テキストテキスト</span>
+                                        <span class="m-media__price">0000円</span>
+                                    </div><!-- /.m-media__text -->
+                                    <p class="m-media__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
+                                    <ul class="m-media__label">
+                                        <li class="m-media__labelItem">テキストテキストテキスト</li>
+                                        <li class="m-media__labelItem">テキスト</li>
                                     </ul>
-                                </div><!-- /.m-menu__contents -->
+                                </div><!-- /.m-media -->
                             </div>
     
                             <div class="un-menuIndex__item js-viewMore__item">
-                                <div class="m-menu__contents">
-                                    <div class="m-menu__media">
+                                <div class="m-media">
+                                    <div class="m-media__media">
                                         <img src="https://placehold.jp/460x320.png" alt="">
                                     </div>
-                                    <div class="m-menu__text">
-                                        <span class="m-menu__textMenu">テキストテキスト</span>
-                                        <span class="m-menu__price">0000円</span>
-                                    </div><!-- /.m-menu__text -->
-                                    <p class="m-menu__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
-                                    <ul class="m-menu__label">
-                                        <li class="m-menu__labelItem">テキストテキストテキスト</li>
-                                        <li class="m-menu__labelItem">テキスト</li>
+                                    <div class="m-media__text">
+                                        <span class="m-media__textMenu">テキストテキスト</span>
+                                        <span class="m-media__price">0000円</span>
+                                    </div><!-- /.m-media__text -->
+                                    <p class="m-media__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
+                                    <ul class="m-media__label">
+                                        <li class="m-media__labelItem">テキストテキストテキスト</li>
+                                        <li class="m-media__labelItem">テキスト</li>
                                     </ul>
-                                </div><!-- /.m-menu__contents -->
+                                </div><!-- /.m-media -->
                             </div>
     
                             <div class="un-menuIndex__item js-viewMore__item">
-                                <div class="m-menu__contents">
-                                    <div class="m-menu__media">
+                                <div class="m-media">
+                                    <div class="m-media__media">
                                         <img src="https://placehold.jp/460x320.png" alt="">
                                     </div>
-                                    <div class="m-menu__text">
-                                        <span class="m-menu__textMenu">テキストテキスト</span>
-                                        <span class="m-menu__price">0000円</span>
-                                    </div><!-- /.m-menu__text -->
-                                    <p class="m-menu__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
-                                    <ul class="m-menu__label">
-                                        <li class="m-menu__labelItem">テキストテキストテキスト</li>
-                                        <li class="m-menu__labelItem">テキスト</li>
+                                    <div class="m-media__text">
+                                        <span class="m-media__textMenu">テキストテキスト</span>
+                                        <span class="m-media__price">0000円</span>
+                                    </div><!-- /.m-media__text -->
+                                    <p class="m-media__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
+                                    <ul class="m-media__label">
+                                        <li class="m-media__labelItem">テキストテキストテキスト</li>
+                                        <li class="m-media__labelItem">テキスト</li>
                                     </ul>
-                                </div><!-- /.m-menu__contents -->
+                                </div><!-- /.m-media -->
                             </div>
     
                             <div class="un-menuIndex__item js-viewMore__item">
-                                <div class="m-menu__contents">
-                                    <div class="m-menu__media">
+                                <div class="m-media">
+                                    <div class="m-media__media">
                                         <img src="https://placehold.jp/460x320.png" alt="">
                                     </div>
-                                    <div class="m-menu__text">
-                                        <span class="m-menu__textMenu">テキストテキスト</span>
-                                        <span class="m-menu__price">0000円</span>
-                                    </div><!-- /.m-menu__text -->
-                                    <p class="m-menu__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
-                                    <ul class="m-menu__label">
-                                        <li class="m-menu__labelItem">テキストテキストテキスト</li>
-                                        <li class="m-menu__labelItem">テキスト</li>
+                                    <div class="m-media__text">
+                                        <span class="m-media__textMenu">テキストテキスト</span>
+                                        <span class="m-media__price">0000円</span>
+                                    </div><!-- /.m-media__text -->
+                                    <p class="m-media__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
+                                    <ul class="m-media__label">
+                                        <li class="m-media__labelItem">テキストテキストテキスト</li>
+                                        <li class="m-media__labelItem">テキスト</li>
                                     </ul>
-                                </div><!-- /.m-menu__contents -->
+                                </div><!-- /.m-media -->
                             </div>
     
                             <div class="un-menuIndex__item js-viewMore__item">
-                                <div class="m-menu__contents">
-                                    <div class="m-menu__media">
+                                <div class="m-media">
+                                    <div class="m-media__media">
                                         <img src="https://placehold.jp/460x320.png" alt="">
                                     </div>
-                                    <div class="m-menu__text">
-                                        <span class="m-menu__textMenu">テキストテキスト</span>
-                                        <span class="m-menu__price">0000円</span>
-                                    </div><!-- /.m-menu__text -->
-                                    <p class="m-menu__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
-                                    <ul class="m-menu__label">
-                                        <li class="m-menu__labelItem">テキストテキストテキスト</li>
-                                        <li class="m-menu__labelItem">テキスト</li>
+                                    <div class="m-media__text">
+                                        <span class="m-media__textMenu">テキストテキスト</span>
+                                        <span class="m-media__price">0000円</span>
+                                    </div><!-- /.m-media__text -->
+                                    <p class="m-media__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
+                                    <ul class="m-media__label">
+                                        <li class="m-media__labelItem">テキストテキストテキスト</li>
+                                        <li class="m-media__labelItem">テキスト</li>
                                     </ul>
-                                </div><!-- /.m-menu__contents -->
+                                </div><!-- /.m-media -->
                             </div>
     
                             <div class="un-menuIndex__item js-viewMore__item">
-                                <div class="m-menu__contents">
-                                    <div class="m-menu__media">
+                                <div class="m-media">
+                                    <div class="m-media__media">
                                         <img src="https://placehold.jp/460x320.png" alt="">
                                     </div>
-                                    <div class="m-menu__text">
-                                        <span class="m-menu__textMenu">テキストテキスト</span>
-                                        <span class="m-menu__price">0000円</span>
-                                    </div><!-- /.m-menu__text -->
-                                    <p class="m-menu__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
-                                    <ul class="m-menu__label">
-                                        <li class="m-menu__labelItem">テキストテキストテキスト</li>
-                                        <li class="m-menu__labelItem">テキスト</li>
+                                    <div class="m-media__text">
+                                        <span class="m-media__textMenu">テキストテキスト</span>
+                                        <span class="m-media__price">0000円</span>
+                                    </div><!-- /.m-media__text -->
+                                    <p class="m-media__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
+                                    <ul class="m-media__label">
+                                        <li class="m-media__labelItem">テキストテキストテキスト</li>
+                                        <li class="m-media__labelItem">テキスト</li>
                                     </ul>
-                                </div><!-- /.m-menu__contents -->
+                                </div><!-- /.m-media -->
                             </div>
     
                             <div class="un-menuIndex__item js-viewMore__item">
-                                <div class="m-menu__contents">
-                                    <div class="m-menu__media">
+                                <div class="m-media">
+                                    <div class="m-media__media">
                                         <img src="https://placehold.jp/460x320.png" alt="">
                                     </div>
-                                    <div class="m-menu__text">
-                                        <span class="m-menu__textMenu">テキストテキスト</span>
-                                        <span class="m-menu__price">0000円</span>
-                                    </div><!-- /.m-menu__text -->
-                                    <p class="m-menu__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
-                                    <ul class="m-menu__label">
-                                        <li class="m-menu__labelItem">テキストテキストテキスト</li>
-                                        <li class="m-menu__labelItem">テキスト</li>
+                                    <div class="m-media__text">
+                                        <span class="m-media__textMenu">テキストテキスト</span>
+                                        <span class="m-media__price">0000円</span>
+                                    </div><!-- /.m-media__text -->
+                                    <p class="m-media__desc">翠翔といえばコレ！名古屋コーチンの美味しさを凝縮した鍋で、10時間かけて取った自信の鶏ガラスープをご賞味ください。</p>
+                                    <ul class="m-media__label">
+                                        <li class="m-media__labelItem">テキストテキストテキスト</li>
+                                        <li class="m-media__labelItem">テキスト</li>
                                     </ul>
-                                </div><!-- /.m-menu__contents -->
+                                </div><!-- /.m-media -->
                             </div>
                         </div><!-- /.un-menuIndex__layout -->
-                        <!-- <template class="js-viewMore__template"> -->
-                            <div class="m-button m-button--nonMark m-button--narrow un-menuIndex__button js-viewMore__hook">
-                                <a href="" class="m-button__link">
+                        <template class="js-viewMore__template">
+                            <div class="m-button m-button--nonMark m-button--narrow un-menuIndex__button">
+                                <a href="" class="m-button__link js-viewMore__hook">
                                     <div class="m-button__inner">
                                         <span class="m-button__text">MORE</span>
                                     </div> 
                                 </a>
                             </div><!-- /.m-button -->
-                        <!-- </template> -->
+                        </template>
                     </div><!-- /.js-viewMore -->
                 </div><!-- /.un-menuIndex -->
             </div>

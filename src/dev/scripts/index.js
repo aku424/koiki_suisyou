@@ -1,5 +1,6 @@
-import Header from "./modules/header";
+import Header from './modules/header';
 import Splide from './library/splide.min';
+import ViewMore from './modules/viewMore';
 
 // ヘッダー
 (()=>{
@@ -31,7 +32,6 @@ import Splide from './library/splide.min';
         autoplay: true,
         interval: 5000,
         classes: {
-            // pagination: 'splide__pagination mv__pagination',
             page      : 'splide__pagination__page mv__paginationItem',
         },
     }
@@ -76,4 +76,17 @@ import Splide from './library/splide.min';
     const instance = new Splide(rootClass, option);
 
     instance.mount();
+})();
+
+(()=>{
+    const root = document.querySelectorAll('.js-viewMore');
+
+    root.forEach((item) => {
+        if (!item) {
+            return;
+        }
+
+        const instance = new ViewMore(item);
+        instance.init();
+    });
 })();

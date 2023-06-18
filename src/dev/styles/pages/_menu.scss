@@ -4,7 +4,7 @@
 // un-menuIndex
 //=====================================
 .un-menuIndex {
-    :where(.m-menu__contentsBubble) {
+    :where(.m-mediaBubble) {
         @include mixin.media(pc) {
             top: -60px;
             left: -30px;

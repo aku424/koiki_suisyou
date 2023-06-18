@@ -403,7 +403,7 @@
         margin-top: 24px;
     }
 
-    :where(.m-menu__contentsBubble) {
+    :where(.m-mediaBubble) {
         width: 76%;
 
         @include mixin.media(pc){
@@ -415,7 +415,7 @@
 .un-menu__leftContents02 {
     grid-area: contents02;
 
-    :where(.m-menu__contentsBubble) {
+    :where(.m-mediaBubble) {
         width: 84%;
 
         @include mixin.media(pc){
@@ -427,7 +427,7 @@
 .un-menu__leftContents03 {
     grid-area: contents03;
 
-    :where(.m-menu__contentsBubble) {
+    :where(.m-mediaBubble) {
         width: 76%;
         
         @include mixin.media(pc){
@@ -472,7 +472,7 @@
 .un-menu__rightContents01 {
     grid-area: contents01;
 
-    :where(.m-menu__contentsBubble) {
+    :where(.m-mediaBubble) {
         width: 56%;
         
         @include mixin.media(pc){
@@ -484,7 +484,7 @@
 .un-menu__rightContents02 {
     grid-area: contents02;
 
-    :where(.m-menu__contentsBubble) {
+    :where(.m-mediaBubble) {
         width: 96%;
 
         @include mixin.media(pc){
@@ -496,7 +496,7 @@
 .un-menu__rightContents03 {
     grid-area: contents03;
 
-    :where(.m-menu__contentsBubble) {
+    :where(.m-mediaBubble) {
         width: 56%;
 
         @include mixin.media(pc){

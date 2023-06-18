@@ -21,7 +21,7 @@ html {
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
   color: #fff;
   letter-spacing: 0.1rem;
-  line-height: 2.25;
+  line-height: 2;
 }
 
 body {
@@ -124,55 +124,55 @@ button {
   background-color: #111;
 }
 
-.m-menu__contents {
+.m-media {
   position: relative;
 }
 
-.m-menu__contentsBubble {
+.m-mediaBubble {
   position: absolute;
   top: -24px;
   left: -22px;
   width: 65%;
 }
 
-.m-menu__media :where(img) {
+.m-media__media :where(img) {
   vertical-align: bottom;
   border-radius: 10px;
 }
 @media screen and (min-width: 769px) {
-  .m-menu__media :where(img) {
+  .m-media__media :where(img) {
     border-radius: 20px;
   }
 }
 
-.m-menu__text {
+.m-media__text {
   display: flex;
   gap: 4px;
   flex-wrap: wrap;
   margin-top: 8px;
 }
 
-.m-menu__textMenu,
-.m-menu__price {
+.m-media__textMenu,
+.m-media__price {
   font-size: calc(14 / 16 * 1rem);
   font-weight: bold;
 }
-.m-menu--large .m-menu__textMenu,
-.m-menu--large .m-menu__price {
+.m-menu--large .m-media__textMenu,
+.m-menu--large .m-media__price {
   font-size: calc(16 / 16 * 1rem);
 }
 @media screen and (min-width: 769px) {
-  .m-menu--large .m-menu__textMenu,
-  .m-menu--large .m-menu__price {
+  .m-menu--large .m-media__textMenu,
+  .m-menu--large .m-media__price {
     font-size: calc(22 / 16 * 1rem);
   }
 }
 
-.m-menu__textMenu {
+.m-media__textMenu {
   line-height: 1.8;
 }
 
-.m-menu__price {
+.m-media__price {
   display: flex;
   width: -moz-fit-content;
   width: fit-content;
@@ -181,19 +181,19 @@ button {
   align-items: center;
 }
 
-.m-menu__desc {
+.m-media__desc {
   font-size: calc(12 / 16 * 1rem);
   margin-top: 10px;
   font-weight: normal;
 }
 @media screen and (min-width: 769px) {
-  .m-menu__desc {
+  .m-media__desc {
     font-size: calc(14 / 16 * 1rem);
     margin-top: 16px;
   }
 }
 
-.m-menu__label {
+.m-media__label {
   margin-top: 10px;
   display: flex;
   flex: 0 0 auto;
@@ -202,12 +202,12 @@ button {
   gap: 10px;
 }
 @media screen and (min-width: 769px) {
-  .m-menu__label {
+  .m-media__label {
     margin-top: 16px;
   }
 }
 
-.m-menu__labelItem {
+.m-media__labelItem {
   line-height: 1;
   padding: 8px 14px;
   font-size: calc(10 / 16 * 1rem);
@@ -216,8 +216,41 @@ button {
   border-radius: 25em;
 }
 @media screen and (min-width: 769px) {
-  .m-menu__labelItem {
+  .m-media__labelItem {
     font-size: calc(12 / 16 * 1rem);
+  }
+}
+
+.m-media__body {
+  margin-top: 10px;
+}
+@media screen and (min-width: 769px) {
+  .m-media__body {
+    margin-top: 18px;
+  }
+}
+
+.m-media__time {
+  font-size: calc(14 / 16 * 1rem);
+  font-weight: bold;
+  letter-spacing: 0.1;
+  line-height: 1;
+  color: #aaa;
+}
+@media screen and (min-width: 769px) {
+  .m-media__time {
+    font-size: calc(12 / 16 * 1rem);
+  }
+}
+
+.m-media__title {
+  font-size: calc(14 / 16 * 1rem);
+  color: #fff;
+}
+@media screen and (min-width: 769px) {
+  .m-media__title {
+    margin-top: 6px;
+    font-size: calc(16 / 16 * 1rem);
   }
 }
 
@@ -5915,6 +5948,10 @@ button {
     margin-bottom: 100px;
   }
 }
+.is-close {
+  display: none;
+}
+
 .m-cta__heading {
   text-align: center;
 }
@@ -6441,6 +6478,7 @@ button {
 
 .m-mv__heading {
   padding: 60px 0 0;
+  text-align: center;
 }
 @media screen and (min-width: 769px) {
   .m-mv__heading {
@@ -6450,7 +6488,6 @@ button {
 
 .m-mv__headingText,
 .m-mv__headingSubText {
-  text-align: center;
   line-height: 1;
 }
 
@@ -6466,6 +6503,7 @@ button {
 .m-mv__headingSubText {
   font-size: calc(14 / 16 * 1rem);
   margin-top: 8px;
+  color: #aaa;
 }
 
 .m-mv__text {
@@ -7062,11 +7100,11 @@ button {
     margin-top: 24px;
   }
 }
-.un-menu__leftContents01 :where(.m-menu__contentsBubble) {
+.un-menu__leftContents01 :where(.m-mediaBubble) {
   width: 76%;
 }
 @media screen and (min-width: 769px) {
-  .un-menu__leftContents01 :where(.m-menu__contentsBubble) {
+  .un-menu__leftContents01 :where(.m-mediaBubble) {
     width: 68%;
   }
 }
@@ -7074,11 +7112,11 @@ button {
 .un-menu__leftContents02 {
   grid-area: contents02;
 }
-.un-menu__leftContents02 :where(.m-menu__contentsBubble) {
+.un-menu__leftContents02 :where(.m-mediaBubble) {
   width: 84%;
 }
 @media screen and (min-width: 769px) {
-  .un-menu__leftContents02 :where(.m-menu__contentsBubble) {
+  .un-menu__leftContents02 :where(.m-mediaBubble) {
     width: 55%;
   }
 }
@@ -7086,11 +7124,11 @@ button {
 .un-menu__leftContents03 {
   grid-area: contents03;
 }
-.un-menu__leftContents03 :where(.m-menu__contentsBubble) {
+.un-menu__leftContents03 :where(.m-mediaBubble) {
   width: 76%;
 }
 @media screen and (min-width: 769px) {
-  .un-menu__leftContents03 :where(.m-menu__contentsBubble) {
+  .un-menu__leftContents03 :where(.m-mediaBubble) {
     width: 50%;
   }
 }
@@ -7126,11 +7164,11 @@ button {
 .un-menu__rightContents01 {
   grid-area: contents01;
 }
-.un-menu__rightContents01 :where(.m-menu__contentsBubble) {
+.un-menu__rightContents01 :where(.m-mediaBubble) {
   width: 56%;
 }
 @media screen and (min-width: 769px) {
-  .un-menu__rightContents01 :where(.m-menu__contentsBubble) {
+  .un-menu__rightContents01 :where(.m-mediaBubble) {
     width: 60%;
   }
 }
@@ -7138,11 +7176,11 @@ button {
 .un-menu__rightContents02 {
   grid-area: contents02;
 }
-.un-menu__rightContents02 :where(.m-menu__contentsBubble) {
+.un-menu__rightContents02 :where(.m-mediaBubble) {
   width: 96%;
 }
 @media screen and (min-width: 769px) {
-  .un-menu__rightContents02 :where(.m-menu__contentsBubble) {
+  .un-menu__rightContents02 :where(.m-mediaBubble) {
     width: 78%;
   }
 }
@@ -7150,11 +7188,11 @@ button {
 .un-menu__rightContents03 {
   grid-area: contents03;
 }
-.un-menu__rightContents03 :where(.m-menu__contentsBubble) {
+.un-menu__rightContents03 :where(.m-mediaBubble) {
   width: 56%;
 }
 @media screen and (min-width: 769px) {
-  .un-menu__rightContents03 :where(.m-menu__contentsBubble) {
+  .un-menu__rightContents03 :where(.m-mediaBubble) {
     width: 48%;
   }
 }
@@ -7525,7 +7563,7 @@ button {
 }
 
 @media screen and (min-width: 769px) {
-  .un-menuIndex :where(.m-menu__contentsBubble) {
+  .un-menuIndex :where(.m-mediaBubble) {
     top: -60px;
     left: -30px;
   }
@@ -7719,4 +7757,24 @@ button {
     gap: 5.4%;
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+.un-newsIndex {
+  margin-top: 80px;
+}
+
+.un-newsIndex__list {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 769px) {
+  .un-newsIndex__list {
+    gap: clamp(16px, 3.75vw, 46px);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+.un-newsIndex__link {
+  text-decoration: none;
 }

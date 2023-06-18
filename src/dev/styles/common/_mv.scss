@@ -31,6 +31,7 @@
 
 .m-mv__heading {
     padding: 60px 0 0;
+    text-align: center;
     
     @include mixin.media(pc){
         padding: 80px 0 0;
@@ -40,7 +41,6 @@
 
 .m-mv__headingText,
 .m-mv__headingSubText {
-    text-align: center;
     line-height: 1;
 }
 
@@ -55,6 +55,7 @@
 .m-mv__headingSubText {
     font-size: mixin.rem(14);
     margin-top: 8px;
+    color: #aaa;
 }
 
 .m-mv__text {

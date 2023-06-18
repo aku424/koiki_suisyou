@@ -4,18 +4,18 @@
 // m-menu
 //=====================================
 
-.m-menu__contents {
+.m-media {
     position: relative;
 }
 
-.m-menu__contentsBubble {
+.m-mediaBubble {
     position: absolute;
     top: -24px;
     left: -22px;
     width: 65%;
 }
 
-.m-menu__media {
+.m-media__media {
     :where(img) {
         vertical-align: bottom;
         border-radius: 10px;
@@ -26,15 +26,15 @@
     }
 }
 
-.m-menu__text {
+.m-media__text {
     display: flex;
     gap: 4px;
     flex-wrap: wrap;
     margin-top: 8px;
 }
 
-.m-menu__textMenu,
-.m-menu__price {
+.m-media__textMenu,
+.m-media__price {
     font-size: mixin.rem(14);
     font-weight: bold;
 
@@ -47,11 +47,11 @@
     }
 }
 
-.m-menu__textMenu {
+.m-media__textMenu {
     line-height: 1.8;
 }
 
-.m-menu__price {
+.m-media__price {
     display: flex;
     width: fit-content;
     margin-left: auto;
@@ -59,7 +59,7 @@
     align-items: center;
 }
 
-.m-menu__desc {
+.m-media__desc {
     font-size: mixin.rem(12);
     margin-top: 10px;
     font-weight: normal;
@@ -70,7 +70,7 @@
     }
 }
 
-.m-menu__label {
+.m-media__label {
     margin-top: 10px;
     display: flex;
     flex: 0 0 auto;
@@ -83,7 +83,7 @@
     }
 }
 
-.m-menu__labelItem {
+.m-media__labelItem {
     line-height: 1;
     padding: 8px 14px;
     font-size: mixin.rem(10);
@@ -95,6 +95,37 @@
         font-size: mixin.rem(12);
     }
 }
+
+.m-media__body {
+    margin-top: 10px;
+
+    @include mixin.media(pc){
+        margin-top: 18px;
+    }
+}
+
+.m-media__time {
+    font-size: mixin.rem(14);
+    font-weight: bold;
+    letter-spacing: .1;
+    line-height: 1;
+    color: #aaa;
+
+    @include mixin.media(pc){
+        font-size: mixin.rem(12);
+    }
+}
+
+.m-media__title {
+    font-size: mixin.rem(14);
+    color: base.$font_base_color;
+    
+    @include mixin.media(pc){
+        margin-top: 6px;
+        font-size: mixin.rem(16);
+    }
+}
+
 
 // m-menu-category
 //=====================================

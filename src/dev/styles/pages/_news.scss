@@ -3,3 +3,22 @@
 
 // un-news
 //=====================================
+
+.un-newsIndex {
+    margin-top: 80px;
+}
+
+.un-newsIndex__list {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1fr;
+
+    @include mixin.media(pc) {
+        gap: clamp(16px,  3.75vw, 46px);
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+}
+
+.un-newsIndex__link {
+    text-decoration: none;
+}
