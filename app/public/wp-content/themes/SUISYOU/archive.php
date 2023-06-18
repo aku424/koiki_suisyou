@@ -19,91 +19,159 @@
 
     <div class="l-content">
         <div class="l-content__inner">
-            <div class="l-content__body">
-                
-            <div class="un-newsIndex">
-                <ul class="un-newsIndex__list">
-                    <li class="un-newsIndex__item">
-                        <a href="__dummy__" class="un-newsIndex__link">
-                            <div class="m-media">
-                                <div class="m-media__media">
+            <div class="l-content__body">        
+                <div class="un-newsIndex js-viewMore">
+                    <ul class="un-newsIndex__list">
+                        <li class="un-newsIndex__item js-viewMore__item">
+                            <a href="__dummy__" class="un-newsIndex__link">
+                                <div class="m-media">
+                                    <div class="m-media__media">
 
-                                </div>
-                                <!-- /.m-media__media -->
-                                <picture class="m-media__media">
-                                    <source srcset="<?php echo get_template_directory_uri()?>/common/img/img_common_01.webp" type="image/webp">
-                                    <img src="<?php echo get_template_directory_uri()?>/common/img/img_common_01.png" alt="">
-                                </picture>
-                                
-                                <div class="m-media__body">
-                                    <time class="m-media__time" datetime="2023-07-10">23/7/10</time>
-                                    <p class="m-media__title"><b>翠翔駅前店にて、アルバイト・パートを募集します。</b></p>
-                                </div><!-- /.m-media__body -->
-                            </div><!-- /.m-media -->
-                        </a>
-                    </li>
-                    
-                    <li class="un-newsIndex__item">
-                        <a href="__dummy__" class="un-newsIndex__link">
-                            <div class="m-media">
-                                <div class="m-media__media">
+                                    </div>
+                                    <!-- /.m-media__media -->
+                                    <picture class="m-media__media">
+                                        <source srcset="<?php echo get_template_directory_uri()?>/common/img/img_common_01.webp" type="image/webp">
+                                        <img src="<?php echo get_template_directory_uri()?>/common/img/img_common_01.png" alt="">
+                                    </picture>
+                                    
+                                    <div class="m-media__body">
+                                        <time class="m-media__time" datetime="2023-07-10">23/7/10</time>
+                                        <p class="m-media__title"><b>翠翔駅前店にて、アルバイト・パートを募集します。</b></p>
+                                    </div><!-- /.m-media__body -->
+                                </div><!-- /.m-media -->
+                            </a>
+                        </li>
+                        
+                        <li class="un-newsIndex__item js-viewMore__item">
+                            <a href="__dummy__" class="un-newsIndex__link">
+                                <div class="m-media">
+                                    <div class="m-media__media">
 
-                                </div>
-                                <!-- /.m-media__media -->
-                                <picture class="m-media__media">
-                                    <source srcset="<?php echo get_template_directory_uri()?>/common/img/img_common_01.webp" type="image/webp">
-                                    <img src="<?php echo get_template_directory_uri()?>/common/img/img_common_01.png" alt="">
-                                </picture>
-                                
-                                <div class="m-media__body">
-                                    <time class="m-media__time" datetime="2023-07-10">23/7/10</time>
-                                    <p class="m-media__title"><b>翠翔駅前店にて、アルバイト・パートを募集します。</b></p>
-                                </div><!-- /.m-media__body -->
-                            </div><!-- /.m-media -->
-                        </a>
-                    </li>
-                    
-                    <li class="un-newsIndex__item">
-                        <a href="__dummy__" class="un-newsIndex__link">
-                            <div class="m-media">
-                                <div class="m-media__media">
+                                    </div>
+                                    <!-- /.m-media__media -->
+                                    <picture class="m-media__media">
+                                        <source srcset="<?php echo get_template_directory_uri()?>/common/img/img_common_01.webp" type="image/webp">
+                                        <img src="<?php echo get_template_directory_uri()?>/common/img/img_common_01.png" alt="">
+                                    </picture>
+                                    
+                                    <div class="m-media__body">
+                                        <time class="m-media__time" datetime="2023-07-10">23/7/10</time>
+                                        <p class="m-media__title"><b>翠翔駅前店にて、アルバイト・パートを募集します。</b></p>
+                                    </div><!-- /.m-media__body -->
+                                </div><!-- /.m-media -->
+                            </a>
+                        </li>
+                        
+                        <li class="un-newsIndex__item js-viewMore__item">
+                            <a href="__dummy__" class="un-newsIndex__link">
+                                <div class="m-media">
+                                    <div class="m-media__media">
 
-                                </div>
-                                <!-- /.m-media__media -->
-                                <picture class="m-media__media">
-                                    <source srcset="<?php echo get_template_directory_uri()?>/common/img/img_common_01.webp" type="image/webp">
-                                    <img src="<?php echo get_template_directory_uri()?>/common/img/img_common_01.png" alt="">
-                                </picture>
-                                
-                                <div class="m-media__body">
-                                    <time class="m-media__time" datetime="2023-07-10">23/7/10</time>
-                                    <p class="m-media__title"><b>翠翔駅前店にて、アルバイト・パートを募集します。</b></p>
-                                </div><!-- /.m-media__body -->
-                            </div><!-- /.m-media -->
-                        </a>
-                    </li>
-                    
-                    <li class="un-newsIndex__item">
-                        <a href="__dummy__" class="un-newsIndex__link">
-                            <div class="m-media">
-                                <div class="m-media__media">
+                                    </div>
+                                    <!-- /.m-media__media -->
+                                    <picture class="m-media__media">
+                                        <source srcset="<?php echo get_template_directory_uri()?>/common/img/img_common_01.webp" type="image/webp">
+                                        <img src="<?php echo get_template_directory_uri()?>/common/img/img_common_01.png" alt="">
+                                    </picture>
+                                    
+                                    <div class="m-media__body">
+                                        <time class="m-media__time" datetime="2023-07-10">23/7/10</time>
+                                        <p class="m-media__title"><b>翠翔駅前店にて、アルバイト・パートを募集します。</b></p>
+                                    </div><!-- /.m-media__body -->
+                                </div><!-- /.m-media -->
+                            </a>
+                        </li>
+                        
+                        <li class="un-newsIndex__item js-viewMore__item">
+                            <a href="__dummy__" class="un-newsIndex__link">
+                                <div class="m-media">
+                                    <div class="m-media__media">
 
-                                </div>
-                                <!-- /.m-media__media -->
-                                <picture class="m-media__media">
-                                    <source srcset="<?php echo get_template_directory_uri()?>/common/img/img_common_01.webp" type="image/webp">
-                                    <img src="<?php echo get_template_directory_uri()?>/common/img/img_common_01.png" alt="">
-                                </picture>
-                                
-                                <div class="m-media__body">
-                                    <time class="m-media__time" datetime="2023-07-10">23/7/10</time>
-                                    <p class="m-media__title"><b>翠翔駅前店にて、アルバイト・パートを募集します。</b></p>
-                                </div><!-- /.m-media__body -->
-                            </div><!-- /.m-media -->
-                        </a>
-                    </li>
-                </ul>
-            </div><!-- /.un-newsIndex -->
+                                    </div>
+                                    <!-- /.m-media__media -->
+                                    <picture class="m-media__media">
+                                        <source srcset="<?php echo get_template_directory_uri()?>/common/img/img_common_01.webp" type="image/webp">
+                                        <img src="<?php echo get_template_directory_uri()?>/common/img/img_common_01.png" alt="">
+                                    </picture>
+                                    
+                                    <div class="m-media__body">
+                                        <time class="m-media__time" datetime="2023-07-10">23/7/10</time>
+                                        <p class="m-media__title"><b>翠翔駅前店にて、アルバイト・パートを募集します。</b></p>
+                                    </div><!-- /.m-media__body -->
+                                </div><!-- /.m-media -->
+                            </a>
+                        </li>
+                        
+                        <li class="un-newsIndex__item js-viewMore__item">
+                            <a href="__dummy__" class="un-newsIndex__link">
+                                <div class="m-media">
+                                    <div class="m-media__media">
+
+                                    </div>
+                                    <!-- /.m-media__media -->
+                                    <picture class="m-media__media">
+                                        <source srcset="<?php echo get_template_directory_uri()?>/common/img/img_common_01.webp" type="image/webp">
+                                        <img src="<?php echo get_template_directory_uri()?>/common/img/img_common_01.png" alt="">
+                                    </picture>
+                                    
+                                    <div class="m-media__body">
+                                        <time class="m-media__time" datetime="2023-07-10">23/7/10</time>
+                                        <p class="m-media__title"><b>翠翔駅前店にて、アルバイト・パートを募集します。</b></p>
+                                    </div><!-- /.m-media__body -->
+                                </div><!-- /.m-media -->
+                            </a>
+                        </li>
+                        
+                        <li class="un-newsIndex__item js-viewMore__item">
+                            <a href="__dummy__" class="un-newsIndex__link">
+                                <div class="m-media">
+                                    <div class="m-media__media">
+
+                                    </div>
+                                    <!-- /.m-media__media -->
+                                    <picture class="m-media__media">
+                                        <source srcset="<?php echo get_template_directory_uri()?>/common/img/img_common_01.webp" type="image/webp">
+                                        <img src="<?php echo get_template_directory_uri()?>/common/img/img_common_01.png" alt="">
+                                    </picture>
+                                    
+                                    <div class="m-media__body">
+                                        <time class="m-media__time" datetime="2023-07-10">23/7/10</time>
+                                        <p class="m-media__title"><b>翠翔駅前店にて、アルバイト・パートを募集します。</b></p>
+                                    </div><!-- /.m-media__body -->
+                                </div><!-- /.m-media -->
+                            </a>
+                        </li>
+                        
+                        <li class="un-newsIndex__item js-viewMore__item">
+                            <a href="__dummy__" class="un-newsIndex__link">
+                                <div class="m-media">
+                                    <div class="m-media__media">
+
+                                    </div>
+                                    <!-- /.m-media__media -->
+                                    <picture class="m-media__media">
+                                        <source srcset="<?php echo get_template_directory_uri()?>/common/img/img_common_01.webp" type="image/webp">
+                                        <img src="<?php echo get_template_directory_uri()?>/common/img/img_common_01.png" alt="">
+                                    </picture>
+                                    
+                                    <div class="m-media__body">
+                                        <time class="m-media__time" datetime="2023-07-10">23/7/10</time>
+                                        <p class="m-media__title"><b>翠翔駅前店にて、アルバイト・パートを募集します。</b></p>
+                                    </div><!-- /.m-media__body -->
+                                </div><!-- /.m-media -->
+                            </a>
+                        </li>
+                    </ul>
+                    <template class="js-viewMore__template">
+                        <div class="m-button m-button--nonMark m-button--narrow un-menuIndex__button">
+                            <a href="" class="m-button__link js-viewMore__hook">
+                                <div class="m-button__inner">
+                                    <span class="m-button__text">MORE</span>
+                                </div> 
+                            </a>
+                        </div><!-- /.m-button -->
+                    </template>
+                </div><!-- /.un-newsIndex -->
             </div>
         </div>
     </div><!-- /.l-content -->

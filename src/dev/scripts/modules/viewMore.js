@@ -7,7 +7,7 @@ export default class ViewMore {
         this.hook = null;
         this.items = Array.from(this.root.querySelectorAll('.js-viewMore__item'));
         this.remainingItems = this.items;
-        this.initCount = 9;
+        this.initCount = 2;
         this.viewCount = 3;
         this.targets = null;
         this.nextViewItem = null;
@@ -21,7 +21,7 @@ export default class ViewMore {
      */ 
     init() {
         this.allClose();
-        this.setNextItem();
+        this.setNextItem(this.initCount);
         this.showTargetItem();
         
         if(this.remainingItems.length) {
@@ -33,9 +33,9 @@ export default class ViewMore {
     /**
      * 次表示させるアイテムの設置
      */
-    setNextItem() {
-        this.nextViewItem = this.remainingItems.slice(0, this.viewCount);
-        this.remainingItems = this.remainingItems.slice(this.viewCount);
+    setNextItem(count) {
+        this.nextViewItem = this.remainingItems.slice(0, count);
+        this.remainingItems = this.remainingItems.slice(count);
     }    
     /**
      * viewMoreボタンのセット
@@ -61,7 +61,7 @@ export default class ViewMore {
      */ 
     clickButton() {
         this.hook.addEventListener('click', (e)=>{
-            this.setNextItem();
+            this.setNextItem(this.viewCount);
             this.showTargetItem();
 
             if (!this.remainingItems.length) {
