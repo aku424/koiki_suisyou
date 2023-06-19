@@ -25,7 +25,6 @@
     @for $i from 1 through 4 { 
         &:where(.col-0#{$i}) {
             @include mixin.media(pc) {
-                grid-template-columns: repeat(#{$i}, 1fr);
                 grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
             }
         }
@@ -36,18 +35,135 @@
     margin-top: 48px;
 }
 
-
-// un-menu-nonAlcohol
+// un-menu-drink__layout
 //=====================================
-
-.un-menu-nonAlcohol {
+.un-menu-drink__layout {
     display: grid;
-    row-gap: 20px;
-    
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+}
+
+.un-menu-drink__layout--type01 {
+    @include mixin.media(pc) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px 6px;
+    }
+}
+
+.un-menu-drink__layout--type02 {
+    @include mixin.media(pc) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        grid-template-areas: 
+            'item01 item02'
+            'item03 item02';
+    }
+}
+
+.un-menu-drink__layout--type03 {
     @include mixin.media(pc) {
         grid-template-columns: repeat(2, 1fr) 2fr;
         row-gap: 0;
     }
 }
 
+.un-menu-drink__layout--type04 {
+    margin-top: 28px;
 
+    @include mixin.media(pc) {
+        margin-top: 42px;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px 6px;
+        grid-template-areas: 
+            'item08 item09 item10 item11'
+            'item12 item13 item14 item11';
+    }
+}
+
+.un-menu-drink__layoutItem--08 {
+    @include mixin.media(pc) {
+        grid-area: item08;
+    }
+}
+
+.un-menu-drink__layoutITem--05 {
+    @include mixin.media(pc) {
+        grid-area: item01;
+    }
+}
+
+.un-menu-drink__layoutITem--06 {
+    @include mixin.media(pc) {
+        grid-area: item02;
+    }
+}
+
+.un-menu-drink__layoutITem--07 {
+    @include mixin.media(pc) {
+        grid-area: item03;
+    }
+}
+
+.un-menu-drink__layoutItem--08 {
+    @include mixin.media(pc) {
+        grid-area: item08;
+    }
+}
+
+.un-menu-drink__layoutItem--09 {
+    @include mixin.media(pc) {
+        grid-area: item09;
+    }
+}
+
+.un-menu-drink__layoutItem--10 {
+    @include mixin.media(pc) {
+        grid-area: item10;
+    }
+}
+
+.un-menu-drink__layoutItem--11 {
+    @include mixin.media(pc) {
+        grid-area: item11;
+    }
+}
+
+.un-menu-drink__layoutItem--12 {
+    @include mixin.media(pc) {
+        grid-area: item12;
+    }
+}
+
+.un-menu-drink__layoutItem--13 {
+    @include mixin.media(pc) {
+        grid-area: item13;
+    }
+}
+
+.un-menu-drink__layoutItem--14 {
+    @include mixin.media(pc) {
+        grid-area: item14;
+    }
+}
+
+
+.un-menu-drink__layoutListWrap {
+    @include mixin.media(pc) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.un-menu-drink__layoutList {
+    margin-top: 16px;
+}
+
+.un-menu-drink__layoutHeading {
+    line-height: 1;
+    font-weight: bold;
+    font-size: mixin.rem(14);
+    
+    @include mixin.media(pc) {
+        font-size: mixin.rem(16);
+    }
+}

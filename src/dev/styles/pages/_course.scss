@@ -5,7 +5,11 @@
 //=====================================
 
 .un-aboutCourse {
-
+    margin-top: 60px;
+    
+    @include mixin.media(pc) {
+        margin-top: 90px;
+    }
 }
 
 .un-aboutCourse__notion {

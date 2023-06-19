@@ -67,29 +67,3 @@
         }
     }
 }
-
-.m-list-columns--narrow {
-    .m-list-columns__item {
-    width: fit-content;
-}
-}
-
-.m-list-columns__item {
-    margin-bottom: 20px;
-    // min-width: calc(1080px / 4);
-}
-
-.m-list-columns__list {
-    margin-top: 16px;
-    column-count: 1;
-}
-
-.m-list-columns__itemHeading {
-    line-height: 1;
-    font-weight: bold;
-    font-size: mixin.rem(14);
-    
-    @include mixin.media(pc) {
-        font-size: mixin.rem(16);
-    }
-}

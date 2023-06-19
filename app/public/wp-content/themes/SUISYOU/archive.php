@@ -23,13 +23,13 @@
                 <div class="m-tabPanel js-tabPanel">
                     <ul class="m-tabPanel__hooks">
                         <li class="m-tabPanel__item">
-                            <a href="" class="m-tabPanel__hook js-tabPanel__hook">tab1</a>
+                            <a href="" class="m-tabPanel__hook js-tabPanel__hook">全てのお知らせ</a>
                         </li>
                         <li class="m-tabPanel__item">
-                            <a href="" class="m-tabPanel__hook js-tabPanel__hook">tab2</a>
+                            <a href="" class="m-tabPanel__hook js-tabPanel__hook">駅前店</a>
                         </li>
                         <li class="m-tabPanel__item">
-                            <a href="" class="m-tabPanel__hook js-tabPanel__hook">tab3</a>
+                            <a href="" class="m-tabPanel__hook js-tabPanel__hook">片町店</a>
                         </li>
                     </ul>
                     <div class="m-tabPanel__contentsWrap js-tabPanel__wrap">

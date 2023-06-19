@@ -10,32 +10,32 @@
                     <li class="mv__item splide__slide">
                         <picture class="mv__itemMedia">
                             <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri()?>/img/mv_index_01-pc.webp" type="image/webp">
-                            <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri()?>/img/imv_index_01-pc.png" type="image/png">
-                            <source srcset="<?php echo get_template_directory_uri()?>/img/imv_index_01-sp.webp" type="image/webp">
+                            <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri()?>/img/mv_index_01-pc.png" type="image/png">
+                            <source srcset="<?php echo get_template_directory_uri()?>/img/mv_index_01-sp.webp" type="image/webp">
                             <img src="<?php echo get_template_directory_uri()?>/img/mv_index_01-pc.png" alt="">
                         </picture>
                     </li>
                     <li class="mv__item splide__slide">
                     <picture class="mv__itemMedia">
                         <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri()?>/img/mv_index_02-pc.webp" type="image/webp">
-                        <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri()?>/img/imv_index_02-pc.png" type="image/png">
-                        <source srcset="<?php echo get_template_directory_uri()?>/img/imv_index_02-sp.webp" type="image/webp">
+                        <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri()?>/img/mv_index_02-pc.png" type="image/png">
+                        <source srcset="<?php echo get_template_directory_uri()?>/img/mv_index_02-sp.webp" type="image/webp">
                         <img src="<?php echo get_template_directory_uri()?>/img/mv_index_02-sp.png" alt="">
                     </picture>
                     </li>
                     <li class="mv__item splide__slide">
                         <picture class="mv__itemMedia">
                             <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri()?>/img/mv_index_03-pc.webp" type="image/webp">
-                            <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri()?>/img/imv_index_03-pc.png" type="image/png">
-                            <source srcset="<?php echo get_template_directory_uri()?>/img/imv_index_03sp.webp" type="image/webp">
+                            <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri()?>/img/mv_index_03-pc.png" type="image/png">
+                            <source srcset="<?php echo get_template_directory_uri()?>/img/mv_index_03sp.webp" type="image/webp">
                             <img src="<?php echo get_template_directory_uri()?>/img/mv_index_03-sp.png" alt="">
                         </picture>
                     </li>
                     <li class="mv__item splide__slide">
                     <picture class="mv__itemMedia">
                         <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri()?>/img/mv_index_04-pc.webp" type="image/webp">
-                        <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri()?>/img/imv_index_04-pc.png" type="image/png">
-                        <source srcset="<?php echo get_template_directory_uri()?>/img/imv_index_04-sp.webp" type="image/webp">
+                        <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri()?>/img/mv_index_04-pc.png" type="image/png">
+                        <source srcset="<?php echo get_template_directory_uri()?>/img/mv_index_04-sp.webp" type="image/webp">
                         <img src="<?php echo get_template_directory_uri()?>/img/mv_index_04-sp.png" alt="">
                     </picture>
                     </li>

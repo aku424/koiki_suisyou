@@ -90,6 +90,8 @@
 
 // JSで操作するクラス
 //=====================================
-// .is-close {
-//     display: none;
-// }
+.js-viewMore__item {
+    &.is-close {
+        display: none;
+    }
+}

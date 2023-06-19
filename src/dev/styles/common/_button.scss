@@ -25,6 +25,7 @@
     width: 100%;
     padding-bottom: 4px;
     border: 2px solid base.$border_base_color;
+    transition: opacity .2s;
     text-decoration: none;
 
     @include mixin.media(pc){
@@ -33,6 +34,12 @@
 
         .m-button--narrow & {
             min-width: auto;
+        }
+    }
+
+    @include mixin.media(hover) {
+        &:hover{
+            opacity: .6;
         }
     }
 }
