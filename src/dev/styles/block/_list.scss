@@ -1,0 +1,101 @@
+@use '../base' as base;
+@use '../mixin' as mixin;
+
+// ul
+//=====================================
+
+.l-newsContent {
+    >:where(*:first-child) {
+        margin-top: 0;
+    }
+
+    ul {
+        @extend %block_margin;
+
+        li {
+            $this: &;
+            padding-left: 20px;
+            position: relative;
+            font-size: mixin.rem(14);
+    
+            &+li {
+                margin-top: 8px;
+            }
+    
+            &::before{
+                position: absolute;
+                content: '';
+                box-sizing: content-box;
+                width: 8px;
+                height: 8px;
+                top: 12px;
+                left: 0;
+                border-radius: 50%;
+                background-color: base.$background_light_color;
+            }
+    
+            @include mixin.media(pc) {
+                padding-left: 24px;
+                font-size: mixin.rem(16);
+            }
+            
+            ul {
+                margin-left: 8px;
+                margin-top: 8px;
+    
+                li {
+                    padding-left: 18px;
+                    font-size: mixin.rem(12);
+    
+                    @include mixin.media(pc) {
+                        padding-left: 20px;
+                        font-size: mixin.rem(14);
+                    }
+
+                    &::before{
+                        border: 2px solid base.$border_dark_color;
+                        width: 6px;
+                        height: 6px;
+                        top: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ol
+//=====================================
+
+.l-newsContent {
+    ol {
+        @extend %block_margin;
+
+        list-style: decimal;
+        padding-left: 20px;
+
+
+        li {
+            font-size: mixin.rem(14);
+            
+            @include mixin.media(pc) {
+                font-size: mixin.rem(16);
+            }
+            
+            &+li {
+                margin-top: 8px;
+                font-size: mixin.rem(12);
+                
+                @include mixin.media(pc) {
+                    font-size: mixin.rem(14);
+                }
+            }
+        }
+
+        ol{
+            margin-left: 6px;
+            margin-top: 8px;
+            list-style: upper-roman;
+        }
+    }
+}

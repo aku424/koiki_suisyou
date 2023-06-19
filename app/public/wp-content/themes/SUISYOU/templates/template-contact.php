@@ -45,7 +45,7 @@
                         </div><!-- /.m-cta__itemInner -->
                     </div><!-- /.m-cta__item -->
 
-                    <div class="m-cta__item contact border grid04">
+                    <a href="__dummy__" class="m-cta__item contact border grid04">
                         <div class="m-cta__itemInner">
                             <div class="m-cta__itemContents">
                                 <div class="m-cta__contactTitle"><span><b>翠翔</b>へ</span></div>
@@ -54,9 +54,9 @@
                                 </div><!-- /.m-cta__contactContents -->
                             </div><!-- /.m-cta__itemContents -->
                         </div><!-- /.m-cta__itemInner -->
-                    </div><!-- /.m-cta__item -->
+                    </a><!-- /.m-cta__item -->
 
-                    <div class="m-cta__item shop border grid05">
+                    <a href="__dummy__" class="m-cta__item shop border grid05">
                         <div class="m-cta__itemInner">
                             <div class="m-cta__itemContents">
                                 <div class="m-cta__shopText"><b>翠翔</b>と<b>
@@ -66,9 +66,9 @@
                                 </div>
                             </div><!-- /.m-cta__itemContents -->
                         </div><!-- /.m-cta__itemInner -->
-                    </div><!-- /.m-cta__item -->
+                    </a><!-- /.m-cta__item -->
 
-                    <div class="m-cta__item shop border grid06">
+                    <a href="__dummy__" class="m-cta__item shop border grid06">
                         <div class="m-cta__itemInner">
                             <div class="m-cta__itemContents">
                                 <div class="m-cta__shopText"><b>
@@ -78,7 +78,7 @@
                                 </div>
                             </div><!-- /.m-cta__itemContents -->
                         </div><!-- /.m-cta__itemInner -->
-                    </div><!-- /.m-cta__item -->
+                    </a><!-- /.m-cta__item -->
 
                 </div><!-- /.m-cta-layout -->
 

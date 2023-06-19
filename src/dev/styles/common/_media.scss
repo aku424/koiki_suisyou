@@ -88,7 +88,7 @@
     padding: 8px 14px;
     font-size: mixin.rem(10);
     background-color: base.$font_sub_dark_color;
-    color: #aaa;
+    color: base.$base_light_dark3;
     border-radius: 25em;
 
     @include mixin.media(pc){
@@ -109,7 +109,7 @@
     font-weight: bold;
     letter-spacing: .1;
     line-height: 1;
-    color: #aaa;
+    color: base.$base_light_dark3;
 
     @include mixin.media(pc){
         font-size: mixin.rem(12);

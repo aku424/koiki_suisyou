@@ -1,0 +1,46 @@
+
+@use '../base' as base;
+@use '../mixin' as mixin;
+
+// bk-box
+//=====================================
+.bk-box {
+    @extend %block_margin;
+
+    position: relative;
+    border-radius: 10px;
+    background-color: base.$background_light_dark_color;
+    padding: 24px;
+    
+    @include mixin.media(pc) {
+        border-radius: 20px;
+        padding: 48px;
+    }
+
+    &::before{
+        content: '';
+        position: absolute;
+        background-image: url('../img/icon_common_15.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 45px;
+        height: 35px;
+        left: 22px;
+        top: 0;
+        transform: translateY(-50%);
+    }
+}
+
+.bk-box__inner {
+    >:where(*:first-child) {
+        margin-top: 0;
+    }
+} 
+
+.bk-box__text {
+    font-size: mixin.rem(14);
+    margin-top: 12px;
+}
+
+

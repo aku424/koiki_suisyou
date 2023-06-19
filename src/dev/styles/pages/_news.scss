@@ -1,7 +1,7 @@
 @use '../base' as base;
 @use '../mixin' as mixin;
 
-// un-news
+// un-newsIndex
 //=====================================
 
 .un-newsIndex {
@@ -22,3 +22,29 @@
 .un-newsIndex__link {
     text-decoration: none;
 }
+
+
+// un-news
+//=====================================
+.un-news__thumbnail {
+    max-width: 990px;
+    width: 100%;
+    margin-top: 32px;
+    margin-inline: auto;
+    padding: 0 40px;
+
+    @include mixin.media(pc) {
+        margin-top: 42px;
+        padding: 0 80px;
+    }
+    
+    :where(img) {
+        vertical-align: bottom;
+        border-radius: 10px;
+    
+        @include mixin.media(pc) {
+            border-radius: 20px;
+        }
+    }
+}
+

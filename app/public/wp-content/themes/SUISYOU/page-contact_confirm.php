@@ -22,40 +22,34 @@
     <div class="l-content l-content--contact">
         <div class="l-content__inner">
             <div class="l-content__body">
-                <form class="un-form" id="form" action="">
+                <form class="un-form">
                     <ul class="un-form__list">
                         <li class="un-form__item">
-                            <label for="name" class="un-form__label">
+                            <div class="un-form__label">
                                 <span class="un-form__labelText">お名前</span>
                                 <span class="un-form__must">必須</span>
-                            </label>
-                            <input type="text" name="name" id="name" class="un-form__input" placeholder="例）翠翔 太郎">
+                            </div>
+                            <div class="un-form__conformInput">翠翔 太郎</div>
                         </li>
                         <li class="un-form__item">
-                            <label for="email" class="un-form__label">
+                            <div for="email" class="un-form__label">
                                 <span class="un-form__labelText">メールアドレス</span>
                                 <span class="un-form__must">必須</span>
-                            </label>
-                            <input type="text" name="email" id="email" class="un-form__input" placeholder="例）suisyooo@xxx.com">
+                            </div>
+                            <div class="un-form__conformInput">suisyooo@xxx.com</div>
                         </li>
                         <li class="un-form__item">
-                            <label for="tel" class="un-form__label">
+                            <div for="tel" class="un-form__label">
                                 <span class="un-form__labelText">お電話番号</span>
-                            </label>
-                            <input type="tel" name="tel" id="tel" class="un-form__input" placeholder="例）090-1234-5678">
+                            </div>
+                            <div class="un-form__conformInput">090-1234-5678</div>
                         </li>
                         <li class="un-form__item un-form__item--textarea">
-                            <label for="textarea" class="un-form__label">
+                            <div for="textarea" class="un-form__label">
                                 <span class="un-form__labelText">お問い合わせ内容</span>
                                 <span class="un-form__must">必須</span>
-                            </label>
-                            <textarea class="un-form__textarea" name="textarea" id="textarea" cols="30" rows="10"></textarea>
-                        </li>
-                        <li class="un-form__item un-form__item--checkbox">
-                            <input class="un-form__input" type="checkbox" id="checkbox">
-                            <label for="checkbox" class="un-form__label" name="checkbox">
-                                <span class="un-form__labelText">弊社規定<a href="__dummy__">プライバシーポリシー</a> に同意する</span>
-                            </label>
+                            </div>
+                            <div class="un-form__conformInput">テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト</div>
                         </li>
 
                     </ul>
@@ -63,7 +57,7 @@
                         <div class="m-button m-button--nonMark m-button--bg">
                             <button type="submit" form="form" href="__dummy__" class="m-button__link">
                                 <div class="m-button__inner">
-                                    <span class="m-button__text">確認</span>
+                                    <span class="m-button__text">送信</span>
                                 </div> 
                             </button>
                         </div><!-- /.m-button -->

@@ -77,7 +77,7 @@
 
                                     <div class="l-header__navLeft">
                                         <li class="l-header__navItem">
-                                            <a href="" class="l-header__navLink">
+                                        <a href="<?php echo home_url('/contact'); ?>" class="l-header__navLink">
                                                 <span class="l-header__navText">お問い合わせ</span>
                                                 <span class="l-header__navSubText">CONTACT</span>
                                             </a>

@@ -1,0 +1,194 @@
+@use '../base' as base;
+@use '../mixin' as mixin;
+
+// un-form
+//=====================================
+.un-form {
+    padding-bottom: 60px;
+
+    @include mixin.media(pc) {
+        padding-bottom: 90px;
+    }
+}
+
+.un-form__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+
+    @include mixin.media(pc) {
+        gap: 30px;
+    }
+}
+
+.un-form__item {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    
+    @include mixin.media(pc) {
+        align-items: center;
+        gap: 16px;
+        flex-direction: row;
+    }
+}
+
+.un-form__item--textarea {
+    flex-direction: column;
+    align-items: start;
+}
+
+.un-form__item--checkbox {
+    margin-top: 40px;
+    gap: 20px;
+    justify-content: center;
+
+    @include mixin.media(pc) {
+        margin-top: 56px;
+    }
+}
+
+.un-form__label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-grow: 1;
+    width: 100%;
+    cursor: pointer;
+    
+    @include mixin.media(pc) {
+        max-width: 225px;
+        justify-content: space-between;
+    }
+    
+    .un-form__item--checkbox & {
+        max-width: 100%;
+        width: fit-content;
+        flex-grow: 0;
+        position: relative;
+        cursor: pointer;
+        align-items: start;
+
+        &::before{
+            content: "";
+            width: 30px;
+            height: 30px;
+            border-radius: 6px;
+            background-color: base.$background_light_dark_color;
+            flex-grow: 0;
+        }
+
+        &::after{
+            display: none;
+            content: '';
+            position: absolute;
+            top: 6px;
+            left: 6px;
+            width: 15px;
+            height: 10px;
+            border-left: 3px solid base.$border_base_color;
+            border-bottom: 3px solid base.$border_base_color;
+            rotate: -45deg;
+        }
+    }
+}
+
+.un-form__labelText {
+    font-size: mixin.rem(14);
+    font-weight: bold;
+
+    @include mixin.media(pc) {
+        font-size: mixin.rem(16);
+    }
+
+    >:where(a) {
+        color: base.$font_base_color;
+        font-weight: bold;
+        padding: 0 8px;
+    }
+}
+
+.un-form__must {
+    border-radius: 25em;
+    line-height: 1;
+    font-size: mixin.rem(12);
+    color: base.$base_light_dark3;
+    border: 1px solid base.$base_light_dark3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4px 12px;
+}
+
+.un-form__input,
+.un-form__textarea {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: base.$background_light_dark_color;
+    padding: 16px;
+    font-size: mixin.rem(14);
+    
+    @include mixin.media(pc) {
+        padding: 24px;
+        font-size: mixin.rem(16);
+    }
+}
+
+.un-form__input {
+    @include mixin.media(pc) {
+        flex-direction: row;
+        width: 400px;
+        flex-shrink: 0;
+    }
+
+    .un-form__item--checkbox & {
+        display: none;
+
+        &:checked {
+            &+.un-form__label {
+                &::after{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+.un-form__button {
+    margin-top: 36px;
+
+    :where(button) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    @include mixin.media(pc) {
+        margin-top: 46px;
+    }
+}
+
+.un-from__text {
+    text-align: center;
+    font-size: mixin.rem(38);
+    font-weight: bold;
+
+    @include mixin.media(pc) {
+        font-size: mixin.rem(46);
+    }
+}
+
+.un-from__subText {
+    text-align: center;
+    margin-top: 24px;
+    font-size: mixin.rem(14);
+
+    & + & {
+        margin-top: 4px;
+    }
+
+    @include mixin.media(pc) {
+        font-size: mixin.rem(16);
+    }
+}

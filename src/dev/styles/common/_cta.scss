@@ -75,6 +75,8 @@
 .m-cta__item {
     border-radius: 10px;
     background-color: base.$background_light_dark_color;
+    color: base.$font_base_color;
+    text-decoration: none;
     
     &.border {
         position: relative;

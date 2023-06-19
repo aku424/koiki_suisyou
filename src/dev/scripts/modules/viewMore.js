@@ -7,7 +7,7 @@ export default class ViewMore {
         this.hook = null;
         this.items = Array.from(this.root.querySelectorAll('.js-viewMore__item'));
         this.remainingItems = this.items;
-        this.initCount = 2;
+        this.initCount = 9;
         this.viewCount = 3;
         this.targets = null;
         this.nextViewItem = null;

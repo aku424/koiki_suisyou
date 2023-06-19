@@ -6,36 +6,34 @@
     <div class="m-mv">
         <div class="m-mv__inner">
             <div class="m-mv__heading">
-                <h1 class="m-mv__headingText"><?php the_title();?></h1>
-                <span class="m-mv__headingSubText">RESTAURANT GUIDE</span>
+                <span class="m-mv__headingSubText">INFORMATION</span>
+                <time class="m-mv__headingDate" datetime="2023-7-10">23/07/10</time>
             </div><!-- /.m-mv__heading -->
 
             <div class="m-mv__text">
-                <p class="m-mv__textItem">名古屋コーチンの翠翔は、福井県福井市の、</p>
-                <p class="m-mv__textItem">駅前と片町に2店舗構えています。</p>
+                <h1 class="m-mv__title">
+                    <?php the_title();?>
+                </h1>
             </div><!-- /.m-mv__text -->
 
         </div><!-- /.m-mv__inner -->
     </div><!-- /.m-mv -->
 
-    <div class="l-content">
+    <div class="un-news__thumbnail">
+        <img src="https://placehold.jp/800x400.png" alt="">
+    </div><!-- /.un-news__thumbnail -->
+                
+    <div class="l-content l-content--narrow">
         <div class="l-content__inner">
             <div class="l-content__body">
-                
+                <div class="l-newsContent">
+                    <?php echo the_content();?>
+                </div><!-- /.l-newsContent -->
             </div>
         </div>
     </div><!-- /.l-content -->
 
-    <div class="l-content">
-        <div class="l-content__inner">
-            <div class="l-content__body">
-                
-                <h2 class="m-heading-type2">名古屋コーチンの翠翔<span class="m-newLine">片町店</span></h2>
-                
-            </div>
-        </div>
-    </div><!-- /.l-content -->
-
+    <?php get_template_part('./templates/template-pagination'); ?>
 
     <?php get_template_part('./templates/template-breadcrumb'); ?>
 

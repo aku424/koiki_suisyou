@@ -31,10 +31,6 @@
         }
     }
 
-    &.menu {
-
-    }
-
     &.course {
         background-image: image-set(
             url("../../img/img_index_22-sp.webp") type("image/webp"),
@@ -54,20 +50,26 @@
             background-repeat: no-repeat;
         }
     }
-
-    &.contact {
-
-    }
 }
 
 .l-content__inner {
     max-width: 1200px;
     margin: 0 auto;
     box-sizing: content-box;
+
+    .l-content--narrow & {
+        max-width: 830px;
+    }
+
+    .l-content--contact & {
+        max-width: 640px;
+    }
 }
 
 .l-content__body {
-    
+    >:where(*:first-child) {
+        margin-top: 0;
+    }
 }
 
 

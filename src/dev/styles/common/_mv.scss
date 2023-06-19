@@ -37,6 +37,9 @@
         padding: 80px 0 0;
     }
 
+    >:where(:first-child) {
+        margin-top: 0;
+    }
 }
 
 .m-mv__headingText,
@@ -45,17 +48,28 @@
 }
 
 .m-mv__headingText {
-    font-size: mixin.rem(24);
+    font-size: mixin.rem(22);
     
     @include mixin.media(pc){
         font-size: mixin.rem(36);
     }
 }
 
+.m-mv__headingDate {
+    margin-top: 20px;
+    font-size: mixin.rem(16);
+    color: base.$base_light_dark3;
+    display: block;
+    
+    @include mixin.media(pc){
+        font-size: mixin.rem(22);
+    }
+}
+
 .m-mv__headingSubText {
     font-size: mixin.rem(14);
     margin-top: 8px;
-    color: #aaa;
+    color: base.$base_light_dark3;
 }
 
 .m-mv__text {
@@ -75,6 +89,14 @@
         
     @include mixin.media(pc){
         font-size: mixin.rem(14);
+    }
+}
+
+.m-mv__title {
+    font-size: mixin.rem(24);
+        
+    @include mixin.media(pc){
+        font-size: mixin.rem(28);
     }
 }
 

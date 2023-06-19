@@ -1,0 +1,86 @@
+@use '../base' as base;
+@use '../mixin' as mixin;
+
+// bk-heading02
+//=====================================
+.bk-heading02 {
+    @extend %block_margin;
+
+    line-height: 1.5;
+    position: relative;
+    font-size: mixin.rem(22);
+    padding-bottom: 24px;
+    text-align: center;
+    
+    @include mixin.media(pc) {
+        font-size: mixin.rem(26);
+    }
+
+    &::after{
+        position: absolute;
+        content: '';
+        width: 30px;
+        height: 3px;
+        background-color: base.$background_light_color;
+        border-radius: 25em;
+        transform: translate(-50%, 100%);
+        left: 50%;
+        bottom: 0;
+    }
+}
+
+// bk-heading03
+//=====================================
+.bk-heading03 {
+    @extend %block_margin;
+
+    line-height: 1.5;
+    position: relative;
+    font-size: mixin.rem(18);
+    padding-left: 36px;
+    
+    @include mixin.media(pc) {
+        padding-left: 46px;
+        font-size: mixin.rem(22);
+    }
+
+    &::before{
+        position: absolute;
+        content: '';
+        width: 24px;
+        height: 3px;
+        background-color: base.$background_light_color;
+        border-radius: 25em;
+        transform: translate(0, -50%);
+        left: 0;
+        top: 12px;
+    }
+}
+
+
+// bk-heading04
+//=====================================
+.bk-heading04 {
+    @extend %block_margin;
+
+    line-height: 1.5;
+    position: relative;
+    font-size: mixin.rem(16);
+    padding-left: 14px;
+    
+    @include mixin.media(pc) {
+        padding-left: 18px;
+        font-size: mixin.rem(20);
+    }
+
+    &::before{
+        position: absolute;
+        content: '';
+        width: 3px;
+        height: 100%;
+        background-color: base.$background_light_color;
+        border-radius: 25em;
+        left: 0;
+        top: 0;
+    }
+}

@@ -1,0 +1,19 @@
+@use '../base' as base;
+@use '../mixin' as mixin;
+
+// bk-text
+//=====================================
+.bk-text {
+    @extend %block_margin;
+
+    font-size: mixin.rem(14);
+    
+    & + & {
+        margin-top: 16px;
+    }
+    
+    @include mixin.media(pc) {
+        font-size: mixin.rem(16);
+    }
+}
+
