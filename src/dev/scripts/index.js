@@ -1,6 +1,7 @@
 import Header from './modules/header';
 import Splide from './library/splide.min';
 import ViewMore from './modules/viewMore';
+import TabPanel from './modules/tabPanel';
 
 // ヘッダー
 (()=>{
@@ -89,4 +90,15 @@ import ViewMore from './modules/viewMore';
         const instance = new ViewMore(item);
         instance.init();
     });
+})();
+
+(()=>{
+    const root = document.querySelector('.js-tabPanel');
+
+    if (!root) {
+        return;
+    }
+
+    const instance = new TabPanel(root);
+    instance.init();
 })();

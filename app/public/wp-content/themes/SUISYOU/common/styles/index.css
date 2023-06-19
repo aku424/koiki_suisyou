@@ -5957,10 +5957,6 @@ button {
     margin-bottom: 100px;
   }
 }
-.is-close {
-  display: none;
-}
-
 .m-cta__heading {
   text-align: center;
 }
@@ -7948,6 +7944,10 @@ button {
   }
 }
 
+.un-newsIndex__item.is-close {
+  display: none;
+}
+
 .un-newsIndex__link {
   text-decoration: none;
 }
@@ -7973,6 +7973,44 @@ button {
   .un-news__thumbnail :where(img) {
     border-radius: 20px;
   }
+}
+
+.m-tabPanel__hooks {
+  margin-top: 2px;
+  display: flex;
+  gap: 46px;
+  justify-content: center;
+}
+
+.m-tabPanel__contents.is-close {
+  display: none;
+}
+
+.m-tabPanel__hook {
+  display: flex;
+  padding: 6px 18px;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  color: #444;
+  font-size: calc(12 / 16 * 1rem);
+  border-radius: 25em;
+  line-height: 1;
+  text-decoration: none;
+}
+.m-tabPanel__hook.is-active {
+  background-color: inherit;
+  position: relative;
+}
+.m-tabPanel__hook.is-active::after {
+  width: 100%;
+  content: "";
+  position: absolute;
+  height: 1px;
+  background-color: #444;
+  transform: translateX(-50%);
+  bottom: -10px;
+  left: 50%;
 }
 
 .un-form {
