@@ -12,6 +12,16 @@
     }
 }
 
+.un-aboutCourse__item {
+    & + & {
+        margin-top: 62px;
+
+        @include mixin.media(pc) {
+            margin-top: 100px;
+        }
+    } 
+}
+
 .un-aboutCourse__notion {
     font-size: mixin.rem(12);
     text-align: center;
@@ -64,7 +74,7 @@
     width: clamp(250px, 56vw, 450px);
     transform: translateX(0%);
     right: -25px;
-    bottom: -85px;
+    bottom: 25px;
 
     @include mixin.media(pc) {
         width: clamp(180px, 28.14vw, 376px);

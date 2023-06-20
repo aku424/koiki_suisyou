@@ -7894,6 +7894,15 @@ a {
   }
 }
 
+.un-aboutCourse__item + .un-aboutCourse__item {
+  margin-top: 62px;
+}
+@media screen and (min-width: 769px) {
+  .un-aboutCourse__item + .un-aboutCourse__item {
+    margin-top: 100px;
+  }
+}
+
 .un-aboutCourse__notion {
   font-size: calc(12 / 16 * 1rem);
   text-align: center;
@@ -7949,7 +7958,7 @@ a {
   width: clamp(250px, 56vw, 450px);
   transform: translateX(0%);
   right: -25px;
-  bottom: -85px;
+  bottom: 25px;
 }
 @media screen and (min-width: 769px) {
   .un-aboutCourse__contentsBubble {

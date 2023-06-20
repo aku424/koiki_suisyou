@@ -13,54 +13,63 @@
         <div class="l-content__inner">
             <div class="l-content__body">
                 <div class="un-aboutCourse">
+                    <!-- コースがあったら表示 -->
+                    <?php
+                        $args = array(
+                            'post_type' => 'meel_course'
+                        );
+
+                        $query = new WP_Query($args);
+                        if ( $query->have_posts() ) :
+                    ?>
                     <ul class="un-aboutCourse__list">
+                    <?php while ( $query->have_posts() ) : $query->the_post();?>
                         <li class="un-aboutCourse__item">
                             <div class="un-aboutCourse__heading">
                                 <h2 class="un-aboutCourse__headingBody">
-                                    <span class="un-aboutCourse__headingMain">華</span>
+                                    <span class="un-aboutCourse__headingMain"><?php the_title(); ?></span>
                                     コース
                                 </h2><!-- /.un-aboutCourse__headingBody -->
                                 <div class="un-aboutCourse__headingInfo">
                                     <div class="un-aboutCourse__headingCourse">
                                         全
-                                        <span class="un-aboutCourse__headingCourseCount">11</span>
+                                        <span class="un-aboutCourse__headingCourseCount"><?php the_field('count'); ?></span>
                                         品
                                     </div><!-- /.un-aboutCourse__headingCourse -->
-                                    <div class="un-aboutCourse__headingPrice">4,200
+                                    <div class="un-aboutCourse__headingPrice"><?php the_field('price'); ?>
                                         <span class="un-aboutCourse__headingUnit">円</span>
                                     </div>
                                 </div><!-- /.un-aboutCourse__headingInfo -->
-                                <img src="<?php echo get_template_directory_uri()?>/course/img/img_index_01.svg" alt="翠翔といえばこれ！野菜と地鶏が鶏出汁でさらにウマく！" class="un-aboutCourse__contentsBubble">
-
+                                <?php
+                                    $item = get_field('speech_bubble');
+                                    if ($item): ?>
+                                    <img src="<?php the_field('speech_bubble'); ?>" alt="" class="un-aboutCourse__contentsBubble">
+                                <?php endif; ?>
                             </div><!-- /.un-aboutCourse__heading -->
 
                             <div class="m-mediaLayout un-aboutCourse__layout">
                                 <div class="m-mediaLayout__media m-width-44-pc">
-                                    <img src="https://placehold.jp/440x300.png" alt="">
+                                    <img src="<?php the_field('image'); ?>" alt="">
                                 </div>
                                 <div class="m-mediaLayout__contents">
 
-                                <p class="m-mediaLayout__text">
-                                    名古屋コーチンをとことん味わっていただけるコースをご用意しました！<br>
-                                    ジャガイモパリパリサラダをはじめ、蒸し鶏冷菜、コーチン焼き鳥、コーチンだしまき玉子、名物手羽先、チキン南蛮、鍋、そしてデザートまで堪能できる豪華な内容です。<br>
-                                    忘年会・新年会・歓迎会・送迎会など各種ご宴会におすすめ。
-                                </p><!-- /.m-mediaLayout__text -->
+                                <p class="m-mediaLayout__text"><?php the_field('description'); ?></p>
+                                <!-- /.m-mediaLayout__text -->
 
                                 <div class="m-box m-box--narrow">
                                     <div class="m-box__inner">
-                                        <ul class="m-list col-02">
+                                    <?php the_field('コースのお品書き')?>
+                                        <!-- <ul class="m-list col-02">
                                             <li class="m-list__item">テキスト</li>
-                                            <li class="m-list__item">テキスト</li>
-                                            <li class="m-list__item">テキスト</li>
-                                            <li class="m-list__item">テキスト</li>
-                                            <li class="m-list__item">テキスト</li>
-                                        </ul>
+                                        </ul> -->
                                     </div><!-- /.m-box__inner -->
                                 </div><!-- /.m-box -->
                                 </div><!-- /.m-mediaLayout__contents -->
                             </div><!-- /.m-mediaLayout -->
                         </li>
+                        <?php endwhile; ?>
                     </ul><!-- /.aboutCourse__list -->
+                    <?php endif;?>
                 </div><!-- /.un-aboutCourse -->
             </div>
         </div>
