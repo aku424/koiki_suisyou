@@ -45,7 +45,7 @@
                         </div><!-- /.m-cta__itemInner -->
                     </div><!-- /.m-cta__item -->
 
-                    <a href="__dummy__" class="m-cta__item contact border grid04">
+                    <a href="<?php echo home_url('/contact');?>" class="m-cta__item contact border grid04">
                         <div class="m-cta__itemInner">
                             <div class="m-cta__itemContents">
                                 <div class="m-cta__contactTitle"><span><b>翠翔</b>へ</span></div>

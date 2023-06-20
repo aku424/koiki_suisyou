@@ -22,11 +22,15 @@
         gap: clamp(16px, 5.33vw, 64px);
     }
 
-    @for $i from 1 through 4 { 
-        &:where(.col-0#{$i}) {
-            @include mixin.media(pc) {
-                grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-            }
+    &:where(.col-02) {
+        @include mixin.media(pc) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    &:where(.col-03) {
+        @include mixin.media(pc) {
+            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
         }
     }
 }

@@ -19,23 +19,23 @@
         <div class="l-footer__nav" role="nav">
             <ul class="l-footer__navList">
                 <li class="l-footer__navItem gridItem01">
-                    <a href="__dummy__" class="l-footer__navLink">メニュー一覧</a>
+                    <a href="<?php echo home_url('/menu');?>" class="l-footer__navLink">メニュー一覧</a>
                 </li>
 
                 <li class="l-footer__navItem gridItem02">
-                    <a href="__dummy__" class="l-footer__navLink">コースについて</a>
+                    <a href="<?php echo home_url('/course');?>" class="l-footer__navLink">コースについて</a>
                 </li>
 
                 <li class="l-footer__navItem gridItem03">
-                    <a href="__dummy__" class="l-footer__navLink">店舗案内</a>
+                    <a href="<?php echo home_url('/shop-information');?>" class="l-footer__navLink">店舗案内</a>
                 </li>
 
                 <li class="l-footer__navItem gridItem04">
-                    <a href="__dummy__" class="l-footer__navLink">お知らせ</a>
+                    <a href="<?php echo home_url('/news');?>" class="l-footer__navLink">お知らせ</a>
                 </li>
 
                 <li class="l-footer__navItem gridItem05">
-                    <a href="__dummy__" class="l-footer__navLink">お問い合わせ</a>
+                    <a href="<?php echo home_url('/contact');?>" class="l-footer__navLink">お問い合わせ</a>
                 </li>
 
                 <li class="l-footer__navItem gridItem06">

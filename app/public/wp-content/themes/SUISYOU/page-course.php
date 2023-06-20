@@ -4,20 +4,8 @@
 
 <!-- メイン -->
 <main>
-    <div class="m-mv">
-        <div class="m-mv__inner">
-            <div class="m-mv__heading">
-                <h1 class="m-mv__headingText"><?php echo get_the_title();?></h1>
-                <h1 class="m-mv__headingSubText">RESTAURANT GUIDE</h1>
-            </div><!-- /.m-mv__heading -->
 
-            <div class="m-mv__text">
-                <p class="m-mv__textItem">名古屋コーチンの翠翔は、福井県福井市の、</p>
-                <p class="m-mv__textItem">駅前と片町に2店舗構えています。</p>
-            </div><!-- /.m-mv__text -->
-
-        </div><!-- /.m-mv__inner -->
-    </div><!-- /.m-mv -->
+<?php get_template_part('./templates/template-mv'); ?>
 
     <p class="un-aboutCourse__notion">※価格は全て税込・おひとり様の料金です。※4名様から承ります。</p>
 

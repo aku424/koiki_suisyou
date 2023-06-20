@@ -77,7 +77,7 @@
                             </div><!-- /.um-about__text -->
                             <div class="un-information__button">
                                 <div class="m-button m-button--right">
-                                    <a href="__dummy__" class="m-button__link">
+                                    <a href="<?php echo home_url('/shop-information');?>" class="m-button__link">
                                         <div class="m-button__inner">
                                             <span class="m-button__text">翠翔のこだわりをもっと見る</span>
                                         </div> 
@@ -186,7 +186,7 @@
 
                             <div class="un-menu__button">
                                 <div class="m-button m-button--right">
-                                    <a href="__dummy__" class="m-button__link">
+                                    <a href="<?php echo home_url('/menu');?>" class="m-button__link">
                                         <div class="m-button__inner">
                                             <span class="m-button__text">翠翔のメニューをもっと見る</span>
                                         </div> 
@@ -297,7 +297,7 @@
 
                     <div class="un-course__button">
                         <div class="m-button m-button--right">
-                            <a href="__dummy__" class="m-button__link">
+                            <a href="<?php echo home_url('/course');?>" class="m-button__link">
                                 <div class="m-button__inner">
                                     <span class="m-button__text">翠翔のコースをもっと見る</span>
                                 </div> 
@@ -336,7 +336,7 @@
                         </ul>
                         <div class="un-news__button">
                             <div class="m-button">
-                                <a href="__dummy__" class="m-button__link">
+                                <a href="<?php echo home_url('/news');?>" class="m-button__link">
                                     <div class="m-button__inner">
                                         <span class="m-button__text">お知らせをもっと見る</span>
                                     </div> 
@@ -424,7 +424,7 @@
                     </ul>
                     <div class="un-guidance__button">
                         <div class="m-button">
-                            <a href="__dummy__" class="m-button__link">
+                            <a href="<?php echo home_url('/shop-information');?>" class="m-button__link">
                                 <div class="m-button__inner">
                                     <span class="m-button__text">店舗案内をもっと見る</span>
                                 </div> 

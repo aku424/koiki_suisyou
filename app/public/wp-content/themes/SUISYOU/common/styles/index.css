@@ -7743,22 +7743,12 @@ a {
   }
 }
 @media screen and (min-width: 769px) {
-  .un-menuIndex__layout:where(.col-01) {
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  }
-}
-@media screen and (min-width: 769px) {
   .un-menuIndex__layout:where(.col-02) {
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (min-width: 769px) {
   .un-menuIndex__layout:where(.col-03) {
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  }
-}
-@media screen and (min-width: 769px) {
-  .un-menuIndex__layout:where(.col-04) {
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   }
 }
@@ -7909,6 +7899,7 @@ a {
   text-align: center;
   color: #999;
   padding: 0 40px;
+  margin-top: 40px;
 }
 
 .un-aboutCourse__heading {

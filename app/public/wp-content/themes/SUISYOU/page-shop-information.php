@@ -3,20 +3,8 @@
 
 <!-- メイン -->
 <main>
-    <div class="m-mv">
-        <div class="m-mv__inner">
-            <div class="m-mv__heading">
-                <h1 class="m-mv__headingText"><?php the_title();?></h1>
-                <span class="m-mv__headingSubText">RESTAURANT GUIDE</span>
-            </div><!-- /.m-mv__heading -->
 
-            <div class="m-mv__text">
-                <p class="m-mv__textItem">名古屋コーチンの翠翔は、福井県福井市の、</p>
-                <p class="m-mv__textItem">駅前と片町に2店舗構えています。</p>
-            </div><!-- /.m-mv__text -->
-
-        </div><!-- /.m-mv__inner -->
-    </div><!-- /.m-mv -->
+<?php get_template_part('./templates/template-mv'); ?>
 
     <div class="l-content">
         <div class="l-content__inner">
