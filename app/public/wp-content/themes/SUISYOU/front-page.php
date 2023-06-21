@@ -310,6 +310,17 @@
         </div>
     </div><!-- /.l-content -->
 
+    <!-- ニュースがあったら -->
+    <?php 
+        $args = array(
+            'post_type' => 'post', // 投稿タイプを指定（お知らせが投稿されている場合は'post'になります）
+            'posts_per_page' => 3, // 表示する投稿の数を指定
+        );
+        
+        $query = new WP_Query($args); // クエリを実行します
+
+        if ($query->have_posts()):
+    ?>
     <div class="l-content news">
         <div class="l-content__inner">
             <div class="l-content__body">
@@ -319,19 +330,23 @@
                 <div class="un-news">
                     <div class="un-news__inner">
                         <ul class="nu-news__list">
+                        <?php $posts = get_posts($args);
+                            foreach ($posts as $post): setup_postdata($post) ?>
                             <li class="un-news__item">
                                 <a href="__dummy__" class="un-news__link">
-                                    <time class="un-news__date" datetime="2023-07-23">23/07/23</time>
-                                    <div class="un-news__text">2023年三国花火の予約を受け付けております。テキストテキストテキスとテキスト</div>
+                                    <div class="un-news__info">
+                                        <time class="un-news__date" datetime="<?php the_time('c')?>"><?php the_time('Y.m.d')?></time>
+                                        <span class="un-news__tag">
+                                        <?php
+                                            $category = get_the_category();
+                                            echo $category[0]->cat_name;
+                                        ?>
+                                        </span>
+                                    </div><!-- /.un-news__info -->
+                                    <div class="un-news__text"><?php the_title(); ?></div>
                                 </a>
                             </li>
-
-                            <li class="un-news__item">
-                                <a href="__dummy__" class="un-news__link">
-                                    <time class="un-news__date" datetime="2023-07-23">23/07/23</time>
-                                    <div class="un-news__text">2023年三国花火の予約を受け付けております。テキストテキストテキスとテキスト2023年三国花火の予約を受け付けております。テキストテキストテキスとテキスト</div>
-                                </a>
-                            </li>
+                        <?php endforeach;?>
 
                         </ul>
                         <div class="un-news__button">
@@ -350,6 +365,7 @@
             </div>
         </div>
     </div><!-- /.l-content -->
+    <?php endif; ?>
 
     <div class="l-content guidance">
         <div class="l-content__inner">

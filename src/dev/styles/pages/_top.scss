@@ -722,16 +722,36 @@
     @include mixin.media(pc){
         padding: 26px 16px;
         flex-direction: row;
-        row-gap: 16px;
+        column-gap: 16px;
     }  
+}
+
+.un-news__info {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+
+    @include mixin.media(pc){
+        width: 190px;
+        flex-shrink: 0;
+    }
 }
 
 .un-news__date {
     @include mixin.media(pc){
-        width: 25%;
         letter-spacing: .4em;
-        flex-shrink: 0;
     }
+}
+
+.un-news__tag {
+    padding: 4px 10px;
+    display: block;
+    background-color: base.$background_light_dark_color;
+    color: base.$font_sub_dark_color;
+    font-size: mixin.rem(10);
+    font-weight: bold;
+    border-radius: 25em;
+    line-height: 1;
 }
 
 .un-news__text {

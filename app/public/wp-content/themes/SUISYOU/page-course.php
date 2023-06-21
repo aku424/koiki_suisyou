@@ -95,7 +95,6 @@
                     </li>
                 </ul>
 
-
                 <div class="m-box">
                     <h3 class="m-box__heading">ALCOHOL</h3>
                     <div class="m-box__inner">
